@@ -1,0 +1,1396 @@
+fileFormatVersion: 2
+guid: 4bbdc96a6f4f7b849876ec7eadbe2509
+timeCreated: 1520530309
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: background
+    21300002: charConscript
+    21300004: charMedic
+    21300006: charMechanic
+    21300008: charScout
+    21300010: map
+    21300012: itemWaterBottle
+    21300014: itemSoda
+    21300016: itemMRE
+    21300018: itemCanOfTuna
+    21300020: itemBandages
+    21300022: itemPainkiller
+    21300024: bersa9mm
+    21300026: bersa22
+    21300028: glockG17c
+    21300030: ballester1125
+    21300032: browningGP35
+    21300034: taurus97
+    21300036: fmk3
+    21300038: halconM1943
+    21300040: mp5sd
+    21300042: coltMod635
+    21300044: remington870
+    21300046: sawnOff
+    21300048: bataan71
+    21300050: hatsanEscort
+    21300052: fnFal
+    21300054: m16
+    21300056: steyrAug
+    21300058: fara83
+    21300060: beretaArx160
+    21300062: remington597
+    21300064: remington700
+    21300066: m24sws
+    21300068: norincoJw14
+    21300070: steyrSsg69
+    21300072: PlayerAiming
+    21300074: vehicleVwGol
+    21300076: itemMedkit
+    21300078: itemMorphine
+    21300080: itemCarWheel
+    21300082: itemFuel
+    21300084: itemBersa9mm
+    21300086: itemWheel
+    21300088: itemBersa22
+    21300090: itemGlockG17c
+    21300092: itemBallester1125
+    21300094: itemBrowningGP35
+    21300096: itemTaurus97
+    21300098: itemFmk3
+    21300100: itemHalconM1943
+    21300102: itemMp5sd
+    21300104: itemColtMod635
+    21300106: itemRemington870
+    21300108: itemSawnOff
+    21300110: itemBataan71
+    21300112: itemHatsanEscort
+    21300114: itemFnfal
+    21300116: itemM16
+    21300118: itemBandage
+    21300120: itemFara83
+    21300122: itemBerettaARX160
+    21300124: itemRemington597
+    21300126: itemRemington700
+    21300128: itemM24sws
+    21300130: itemNorincoJw14
+    21300132: itemSteyrSsg69
+    21300134: itemBrokenBone
+    21300136: itemBleeding
+    21300138: itemBrowningGp35
+    21300140: itemFnFal
+    21300142: itemSteyrAug
+    21300144: itemBerettaArx160
+    21300146: itemMre
+    21300148: itemCanOfSoda
+    21300150: itemPainkillers
+    21300152: itemHungry
+    21300154: itemThirsty
+    21300156: itemTired
+    21300158: itemCold
+    21300160: iconFacebook
+    21300162: iconTwitter
+    21300164: iconWikia
+    21300166: item22lr
+    21300168: item9mm
+    21300170: item45acp
+    21300172: item12gauge
+    21300174: item556
+    21300176: item762
+    21300178: vehicleUnimog
+    21300180: iconExe
+    21300182: vehicleR12
+    21300184: vehicleFalcon
+    21300186: effectCover
+    21300188: skillConscript2
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1328
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: charConscript
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 954
+        width: 250
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: charMedic
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 954
+        width: 250
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: charMechanic
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 954
+        width: 250
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: charScout
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 954
+        width: 250
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bersa9mm
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 81
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5045644, y: 0.52594584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bersa22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 345
+        width: 78
+        height: 51
+      alignment: 9
+      pivot: {x: 0.52369994, y: 0.5000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glockG17c
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 84
+        height: 55
+      alignment: 9
+      pivot: {x: 0.4647887, y: 0.5739446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ballester1125
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 334
+        width: 96
+        height: 62
+      alignment: 9
+      pivot: {x: 0.44608244, y: 0.60137594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: browningGP35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 340
+        width: 88
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4243757, y: 0.5792269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: taurus97
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 338
+        width: 103
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4030833, y: 0.43625614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fmk3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 326
+        width: 197
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5647589, y: 0.4777963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: halconM1943
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 321
+        width: 195
+        height: 76
+      alignment: 9
+      pivot: {x: 0.492416, y: 0.6362136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mp5sd
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 317
+        width: 251
+        height: 79
+      alignment: 9
+      pivot: {x: 0.4499186, y: 0.41576144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coltMod635
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 309
+        width: 236
+        height: 88
+      alignment: 9
+      pivot: {x: 0.3856377, y: 0.42857742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: remington870
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 346
+        height: 66
+      alignment: 9
+      pivot: {x: 0.3541685, y: 0.56035686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sawnOff
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 273
+        width: 166
+        height: 43
+      alignment: 9
+      pivot: {x: 0.32002258, y: 0.20664233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bataan71
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 267
+        width: 253
+        height: 50
+      alignment: 9
+      pivot: {x: 0.26034027, y: 0.42605713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hatsanEscort
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 255
+        width: 344
+        height: 61
+      alignment: 9
+      pivot: {x: 0.3076172, y: 0.5848549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fnFal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 363
+        height: 75
+      alignment: 9
+      pivot: {x: 0.32074234, y: 0.4112685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: m16
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 157
+        width: 345
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3478259, y: 0.4507046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: steyrAug
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 152
+        width: 268
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fara83
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 170
+        width: 334
+        height: 76
+      alignment: 9
+      pivot: {x: 0.37380853, y: 0.4659472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beretaArx160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 253
+        height: 88
+      alignment: 9
+      pivot: {x: 0.37933895, y: 0.3766573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: remington597
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 96
+        width: 259
+        height: 50
+      alignment: 9
+      pivot: {x: 0.3847535, y: 0.5474864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: remington700
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 103
+        width: 275
+        height: 43
+      alignment: 9
+      pivot: {x: 0.3137531, y: 0.492113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: m24sws
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 96
+        width: 329
+        height: 50
+      alignment: 9
+      pivot: {x: 0.30558854, y: 0.4408455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: norincoJw14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 322
+        height: 56
+      alignment: 9
+      pivot: {x: 0.32092366, y: 0.48788682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: steyrSsg69
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 9
+        width: 324
+        height: 57
+      alignment: 9
+      pivot: {x: 0.32726362, y: 0.49999952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAiming
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 743
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vehicleVwGol
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 357
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBersa22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 890
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.49999955, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBersa9mm
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemGlockG17c
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBallester1125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBrowningGp35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemTaurus97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemFmk3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemHalconM1943
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemMp5sd
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemColtMod635
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemRemington870
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemSawnOff
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBataan71
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemHatsanEscort
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemFnFal
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemM16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemSteyrAug
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemFara83
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBerettaArx160
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemRemington597
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemRemington700
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemNorincoJw14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemSteyrSsg69
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemWaterBottle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemMre
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemCanOfTuna
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBandages
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemCanOfSoda
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemPainkillers
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemMedkit
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemMorphine
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemCarWheel
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemFuel
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBrokenBone
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemBleeding
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemM24sws
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemHungry
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemThirsty
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemTired
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemCold
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconFacebook
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconTwitter
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconWikia
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: item22lr
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: item9mm
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: item45acp
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: item12gauge
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: item556
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: item762
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vehicleUnimog
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 402
+        width: 383
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconExe
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vehicleR12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 412
+        width: 424
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vehicleFalcon
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 413
+        width: 441
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: effectCover
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillConscript2
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

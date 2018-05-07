@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f98b872240b56144c9e35058bfab9a29
+timeCreated: 1500494581
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bronx Bystreets
+  fontNames:
+  - Bronx Bystreets
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
