@@ -12,16 +12,17 @@ public class MovePlayer : MonoBehaviour
     void OnMouseDown()
     {
         isMoving = true;
+        target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        player.transform.LookAt(target, Vector3.forward);
+        target.z = transform.position.z;
     }
 
     void Update()
     {
         if (isMoving)
         {
-            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            player.transform.LookAt(target, Vector3.forward);
-            target.z = transform.position.z;
-            player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);    
+            player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);
+
         }
 
         if (player.transform.position == target)

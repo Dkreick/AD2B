@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     private string _url;
+    public Image fadeOutImage;
+    public float timeToFadeOut;
 
     public void OpenURL(string _url)
     {
@@ -26,13 +28,24 @@ public class ButtonManager : MonoBehaviour
         }            
     }
 
-    public void LoadScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-    }
-
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void ChangeScene(string sceneName)
+    {
+        StartCoroutine("FadeToBlack", sceneName);
+    }
+
+    IEnumerator FadeToBlack(string sceneName)
+    {
+        CanvasGroup canvas = fadeOutImage.GetComponent<CanvasGroup>();
+        while (canvas.alpha < 1)
+        {
+            canvas.alpha += Time.deltaTime / timeToFadeOut;
+            yield return null;
+        }
+        SceneManager.LoadScene(sceneName);
     }
 }
