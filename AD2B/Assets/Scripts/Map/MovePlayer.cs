@@ -8,6 +8,8 @@ public class MovePlayer : MonoBehaviour
     private Vector3 target;
     public float speed;
     public static bool isMoving;
+    public float eventTargetTime;
+    public GameObject panelToBattle;
 
     void OnMouseDown()
     {
@@ -23,11 +25,21 @@ public class MovePlayer : MonoBehaviour
         {
             player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);
 
+            eventTargetTime -= Time.deltaTime;
+            if (eventTargetTime <= 0.0f)
+            {
+                getRandomEvent();
+            }
         }
 
         if (player.transform.position == target)
         {
             isMoving = false;
         }
+    }
+
+    void getRandomEvent()
+    {
+        panelToBattle.SetActive(true);
     }
 }
