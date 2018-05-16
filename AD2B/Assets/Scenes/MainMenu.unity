@@ -739,9 +739,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1475584399}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1475584404}
+        m_MethodName: Enable
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -937,7 +937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &401324213
 GameObject:
@@ -1612,7 +1611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &560118429
 GameObject:
@@ -1751,7 +1749,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &569945301
 GameObject:
@@ -1960,7 +1957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &587390062
 GameObject:
@@ -2140,7 +2136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &640237287
 GameObject:
@@ -2525,9 +2520,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1904087350}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1904087355}
+        m_MethodName: Disable
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2732,9 +2727,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1475584399}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1475584404}
+        m_MethodName: Disable
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3534,7 +3529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &1133250723
 GameObject:
@@ -4139,7 +4133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &1409205804
 GameObject:
@@ -4278,7 +4271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 0}
   timeToFadeOut: 0
 --- !u!1 &1438148862
 GameObject:
@@ -4449,6 +4441,8 @@ GameObject:
   - component: {fileID: 1475584400}
   - component: {fileID: 1475584402}
   - component: {fileID: 1475584401}
+  - component: {fileID: 1475584403}
+  - component: {fileID: 1475584404}
   m_Layer: 5
   m_Name: PanelCharacter
   m_TagString: Untagged
@@ -4510,6 +4504,30 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475584399}
+--- !u!225 &1475584403
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475584399}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1475584404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475584399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3641ed0bb3c4f4b93fa631035c7a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 0.5
+  secondsToCompleteFade: 1
 --- !u!1 &1532522092
 GameObject:
   m_ObjectHideFlags: 0
@@ -4849,12 +4867,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224594749581224228, guid: 0496206060626344d9dd860945bd8f75,
     type: 2}
   m_PrefabInternal: {fileID: 1970491457}
---- !u!114 &1801028370 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114090339905627470, guid: 0496206060626344d9dd860945bd8f75,
-    type: 2}
-  m_PrefabInternal: {fileID: 1970491457}
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1875850962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,6 +4921,8 @@ GameObject:
   - component: {fileID: 1904087351}
   - component: {fileID: 1904087353}
   - component: {fileID: 1904087352}
+  - component: {fileID: 1904087354}
+  - component: {fileID: 1904087355}
   m_Layer: 5
   m_Name: PanelOptions
   m_TagString: Untagged
@@ -4970,6 +4984,30 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1904087350}
+--- !u!225 &1904087354
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1904087350}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1904087355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1904087350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3641ed0bb3c4f4b93fa631035c7a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 0.5
+  secondsToCompleteFade: 1
 --- !u!1 &1953037984
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,9 +5338,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1904087350}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1904087355}
+        m_MethodName: Enable
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5453,5 +5491,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553e64ee99141a14d9027646390b5842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutImage: {fileID: 1801028370}
   timeToFadeOut: 0

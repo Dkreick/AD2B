@@ -7,8 +7,13 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     private string _url;
-    public Image fadeOutImage;
+    private GameObject _fadeOutImage;
     public float timeToFadeOut;
+
+    void Start()
+    {
+        GameObject.Find("FadeToBlack");
+    }
 
     public void OpenURL(string _url)
     {
@@ -40,7 +45,7 @@ public class ButtonManager : MonoBehaviour
 
     IEnumerator FadeToBlack(string sceneName)
     {
-        CanvasGroup canvas = fadeOutImage.GetComponent<CanvasGroup>();
+        CanvasGroup canvas = _fadeOutImage.GetComponent<CanvasGroup>();
         while (canvas.alpha < 1)
         {
             canvas.alpha += Time.deltaTime / timeToFadeOut;
