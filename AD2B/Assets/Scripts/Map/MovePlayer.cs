@@ -7,7 +7,7 @@ public class MovePlayer : MonoBehaviour
     public GameObject player;
     private Vector3 target;
     public float speed;
-    public static bool isMoving;
+    public bool isMoving;
     public float eventTargetTime;
     public GameObject panelToBattle;
 
@@ -41,5 +41,6 @@ public class MovePlayer : MonoBehaviour
     void getRandomEvent()
     {
         panelToBattle.SetActive(true);
+        isMoving = false;
     }
 }
