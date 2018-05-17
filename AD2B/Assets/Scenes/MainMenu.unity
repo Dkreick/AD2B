@@ -523,6 +523,8 @@ GameObject:
   - component: {fileID: 217201756}
   - component: {fileID: 217201758}
   - component: {fileID: 217201757}
+  - component: {fileID: 217201759}
+  - component: {fileID: 217201760}
   m_Layer: 5
   m_Name: ButtonLoadGame
   m_TagString: Untagged
@@ -596,6 +598,30 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 217201755}
+--- !u!114 &217201759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 217201755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c4d798291f8f346817932e515405de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 5
+  secondsToCompleteFade: 2
+--- !u!225 &217201760
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 217201755}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &233899483
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +700,8 @@ GameObject:
   - component: {fileID: 246176565}
   - component: {fileID: 246176568}
   - component: {fileID: 246176566}
+  - component: {fileID: 246176567}
+  - component: {fileID: 246176569}
   m_Layer: 5
   m_Name: ButtonNewGame
   m_TagString: Untagged
@@ -752,12 +780,36 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &246176567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 246176564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c4d798291f8f346817932e515405de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 4
+  secondsToCompleteFade: 2
 --- !u!222 &246176568
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 246176564}
+--- !u!225 &246176569
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 246176564}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &329354111
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +1000,8 @@ GameObject:
   - component: {fileID: 401324214}
   - component: {fileID: 401324216}
   - component: {fileID: 401324215}
+  - component: {fileID: 401324217}
+  - component: {fileID: 401324218}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -1012,6 +1066,30 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 401324213}
+--- !u!114 &401324217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401324213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c4d798291f8f346817932e515405de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 2
+  secondsToCompleteFade: 2
+--- !u!225 &401324218
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401324213}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &414088391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3433,7 +3511,9 @@ GameObject:
   - component: {fileID: 1116758118}
   - component: {fileID: 1116758120}
   - component: {fileID: 1116758119}
+  - component: {fileID: 1116758122}
   - component: {fileID: 1116758121}
+  - component: {fileID: 1116758123}
   m_Layer: 5
   m_Name: ButtonExitGame
   m_TagString: Untagged
@@ -3530,6 +3610,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToFadeOut: 0
+--- !u!114 &1116758122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116758117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c4d798291f8f346817932e515405de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 7
+  secondsToCompleteFade: 2
+--- !u!225 &1116758123
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116758117}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1133250723
 GameObject:
   m_ObjectHideFlags: 0
@@ -5273,6 +5377,8 @@ GameObject:
   - component: {fileID: 2102601664}
   - component: {fileID: 2102601666}
   - component: {fileID: 2102601665}
+  - component: {fileID: 2102601667}
+  - component: {fileID: 2102601668}
   m_Layer: 5
   m_Name: ButtonOptions
   m_TagString: Untagged
@@ -5357,6 +5463,30 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2102601663}
+--- !u!114 &2102601667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102601663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c4d798291f8f346817932e515405de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToTriggerFade: 6
+  secondsToCompleteFade: 2
+--- !u!225 &2102601668
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102601663}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2132363833
 GameObject:
   m_ObjectHideFlags: 0
