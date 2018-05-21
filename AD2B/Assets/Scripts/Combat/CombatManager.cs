@@ -8,9 +8,11 @@ public class CombatManager : MonoBehaviour
     public GameObject player;
     public GameObject enemy;
     public float sliderValueSpeed;
+
+    public Slider playerHealthBar;
     public Slider enemyHealthBar;
-    public Slider enemyStaminaBar;
-    public Slider enemyAdrenalineBar;
+    public GameObject panelVictory;
+    public GameObject panelDefeat;
 
     public void Cover()
     {
@@ -26,13 +28,20 @@ public class CombatManager : MonoBehaviour
     {
         float totalDamage = 10;
         StartCoroutine(ChangeSliderValue(enemyHealthBar, totalDamage));
+
+        if (playerHealthBar.value <= 0)
+        {
+            panelDefeat.SetActive(true);
+        }
+        if (enemyHealthBar.value <= 0)
+        {
+            panelVictory.SetActive(true);
+        }
     }
 
     IEnumerator ChangeSliderValue(Slider bar, float newValue)
     {
-        
         float temp = bar.value - newValue / 100;
-        print(temp);
         while (bar.value > temp)
         {
             bar.value -= sliderValueSpeed * Time.deltaTime;
@@ -40,3 +49,4 @@ public class CombatManager : MonoBehaviour
         }
     }
 }
+
