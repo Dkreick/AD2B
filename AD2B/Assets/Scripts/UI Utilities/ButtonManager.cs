@@ -12,7 +12,7 @@ public class ButtonManager : MonoBehaviour
 
     void Start()
     {
-        GameObject.Find("FadeToBlack");
+        _fadeOutImage = GameObject.Find("FadeToBlack");
     }
 
     public void OpenURL(string _url)

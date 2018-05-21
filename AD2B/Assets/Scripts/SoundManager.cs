@@ -9,11 +9,6 @@ public class SoundManager : MonoBehaviour
     private float musicVolume;
     private float fxVolume;
 
-    void Awake()
-    {
-        DontDestroyOnLoad(transform.gameObject);
-    }
-
     void Start()
     {
         StartCoroutine("Wait");
