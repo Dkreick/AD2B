@@ -2112,6 +2112,7 @@ GameObject:
   - component: {fileID: 557531194}
   - component: {fileID: 557531196}
   - component: {fileID: 557531195}
+  - component: {fileID: 557531197}
   m_Layer: 5
   m_Name: TextTime
   m_TagString: Untagged
@@ -2176,6 +2177,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 557531193}
+--- !u!114 &557531197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 557531193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa845cc7306075142a69c1e3e9370040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClock: {fileID: 0}
 --- !u!1 &581245496
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,7 +2590,7 @@ Prefab:
     - target: {fileID: 224611496968310366, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224611496968310366, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
@@ -2637,7 +2650,7 @@ Prefab:
     - target: {fileID: 224897199630133160, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224886365604524268, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
@@ -2657,7 +2670,7 @@ Prefab:
     - target: {fileID: 224886365604524268, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224951410695677440, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
@@ -2677,7 +2690,7 @@ Prefab:
     - target: {fileID: 224951410695677440, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -57.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224503214542911202, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
@@ -2697,7 +2710,7 @@ Prefab:
     - target: {fileID: 224503214542911202, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -130
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224712347384322726, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
@@ -2717,7 +2730,7 @@ Prefab:
     - target: {fileID: 224712347384322726, guid: f73ca8abac09d844b89b7ffac9d2e241,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -160
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f73ca8abac09d844b89b7ffac9d2e241, type: 2}
@@ -5552,7 +5565,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 473029578}
   speed: 1
-  isMoving: 0
   eventTargetTime: 2
   panelToBattle: {fileID: 278478784}
 --- !u!114 &2015669345

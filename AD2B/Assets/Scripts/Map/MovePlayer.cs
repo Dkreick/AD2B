@@ -7,13 +7,14 @@ public class MovePlayer : MonoBehaviour
     public GameObject player;
     private Vector3 target;
     public float speed;
-    public bool isMoving;
+    public static bool isMoving;
     public float eventTargetTime;
     public GameObject panelToBattle;
 
     void OnMouseDown()
     {
         isMoving = true;
+        UpdateClock.timeMultiplier = 100;
         target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         player.transform.LookAt(target, Vector3.forward);
         target.z = transform.position.z;
@@ -35,6 +36,7 @@ public class MovePlayer : MonoBehaviour
         if (player.transform.position == target)
         {
             isMoving = false;
+            UpdateClock.timeMultiplier = 1;
         }
     }
 
