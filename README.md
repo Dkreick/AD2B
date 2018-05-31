@@ -8,6 +8,8 @@
 
 [Mindmeister map](https://www.mindmeister.com/1043749988)
 
+[Full GDD](/Docs/Game%20Design%20Document.md)
+
 ## Another Day To BE - Game Design Document
 
 *Cross between Sonny 2 and Fallout*
@@ -20,9 +22,9 @@
 
 **Thematic Setting:** Present day, ruined civilization
 
-**Tech Stack:** Unity3D 2017, Adobe Illustrator, Adobe Photoshop
+**Tech Stack:** Unity3D 2017, Adobe Illustrator, Adobe Photoshop, Audacity
 
-**Platform:** Web
+**Platform:** WebGL
 
 **Game Moment:** Between 1 and 3 minutes per fight, up to ~10 seconds per turn.
 
