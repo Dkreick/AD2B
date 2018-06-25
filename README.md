@@ -8,7 +8,7 @@
 
 [Mindmeister map](https://www.mindmeister.com/1043749988)
 
-[Full GDD](/Docs/Game%20Design%20Document.md)
+[Full GDD](/Documents/Developer%20notes/Game%20Design%20Document.md)
 
 ## Another Day To BE - Game Design Document
 

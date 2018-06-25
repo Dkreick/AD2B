@@ -34,6 +34,9 @@
 
 # IMAGE PLACEHOLDER TRAVEL / COMBAT
 
+![text](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
+![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
+
 #### Game Summary
 "Fallout 1 meets Sonny 2"
      
@@ -72,7 +75,7 @@ No estimated date
 
 ## Camera, Character and Controls
 
-# IMAGE PLACEHOLDER COMBAT
+![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
 
 #### Camera
 
@@ -84,7 +87,7 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 
 #### Menu chart
 
-# IMAGE PLACEHOLDER MENU CHART
+![text](/Documents/Developer%20notes/GDD%20Images/Menu%20Chart.png)
 
 ## 30 Seconds Of Gameplay
 
@@ -93,7 +96,7 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 #### Context / Setup:
 • What is the situation that this 30 seconds is going to take place in?
 
-# IMAGE PLACEHOLDER COMBAT
+![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
 
 #### Player Actions:
 • Write this from the perspective of “you see this, then you click on the button then the screen does such-and-such” and so on. 
@@ -109,11 +112,11 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 
 Explain all the details necessary to understand this feature. Use diagrams, images, sketches, screenshots, tables, etc in order to be clear.
 
-# IMAGE PLACEHOLDER COMBAT
+![text](/Documents/Developer%20notes/GDD%20Images/SketchCombat.png)
 
 ### Map full of places to explore
 
-# IMAGE PLACEHOLDER MAP
+![text](/Documents/Developer%20notes/GDD%20Images/SketchTravel.png)
 
 ### Guns, food, drugs, vehicles and more...
 
@@ -151,7 +154,7 @@ There will be different events when the player is travelling, here is a few exam
 
 #### Our Hero
 
-# IMAGE PLACEHOLDER
+![text](/Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg)
 
 Who is the character you play? What are their motivations? What is interesting about them? How is the player going to be controlling them? What are they going to do in the game?
 
