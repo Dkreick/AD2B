@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -11,15 +10,14 @@ public class MovePlayer : MonoBehaviour
     public static bool isMoving;
     public float eventTargetTime;
     public GameObject panelToBattle;
-    public Text LocationText;
 
     void OnMouseDown()
     {
-        isMoving = true;
         UpdateClock.timeMultiplier = 100;
         target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         player.transform.LookAt(target, Vector3.forward);
         target.z = transform.position.z;
+        isMoving = true;
     }
 
     void Update()
