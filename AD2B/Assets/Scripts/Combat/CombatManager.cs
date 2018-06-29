@@ -14,9 +14,27 @@ public class CombatManager : MonoBehaviour
     public GameObject panelVictory;
     public GameObject panelDefeat;
 
-    public void Cover()
-    {
+    public float playerDefense;
+    public float enemyDefense;
 
+    void Start()
+    {
+        playerDefense = 1;
+        enemyDefense = 1;
+    }
+
+    public void Cover(string author)
+    {
+        if (author == "Player")
+        {
+            playerDefense = 0.5f;
+            MakeNextTurn("Enemy");
+        }
+        if (author == "Enemy")
+        {
+            enemyDefense = 0.5f;
+            MakeNextTurn("Player");
+        }
     }
 
     public void Inventory()
@@ -26,9 +44,9 @@ public class CombatManager : MonoBehaviour
 
     public void Attack()
     {
-        float totalDamage = 10;
+        float totalDamage = 10 * enemyDefense;
         StartCoroutine(ChangeSliderValue(enemyHealthBar, totalDamage, "Enemy"));
-
+        enemyDefense = 1;
         if (enemyHealthBar.value <= 0)
         {
             panelVictory.SetActive(true);
@@ -45,9 +63,9 @@ public class CombatManager : MonoBehaviour
         {
             if (enemyHealthBar.value * 100 > 50)
             {
-                float totalDamage = 10;
+                float totalDamage = 10 * playerDefense;
                 StartCoroutine(ChangeSliderValue(playerHealthBar, totalDamage, "Player"));
-
+                playerDefense = 1;
                 if (playerHealthBar.value <= 0)
                 {
                     panelDefeat.SetActive(true);
@@ -56,7 +74,7 @@ public class CombatManager : MonoBehaviour
 
             if (enemyHealthBar.value * 100 < 25)
             {
-                
+                Cover("Enemy");
             }
             else
             {
@@ -64,9 +82,9 @@ public class CombatManager : MonoBehaviour
 
                 if (chance == 1)
                 {
-                    float totalDamage = 10;
+                    float totalDamage = 10 * playerDefense;
                     StartCoroutine(ChangeSliderValue(playerHealthBar, totalDamage, "Player"));
-
+                    playerDefense = 1;
                     if (playerHealthBar.value <= 0)
                     {
                         panelDefeat.SetActive(true);
@@ -74,7 +92,7 @@ public class CombatManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Enemy is taking cover");
+                    Cover("Enemy");
                 }
             }
         }
