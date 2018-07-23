@@ -4,6 +4,8 @@
 
 [Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
 
+[Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
+
 [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
 
 [Mindmeister map](https://www.mindmeister.com/1043749988)
