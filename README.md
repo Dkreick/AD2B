@@ -1,16 +1,13 @@
 ## Useful links
+![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin](https://www.linkedin.com/in/damiankreick)
 
-[My linkedin](https://www.linkedin.com/in/damiankreick)
+![#519839](https://placehold.it/15/519839/000000?text=+) [Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
 
-[Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
+![#b04632](https://placehold.it/15/b04632/000000?text=+) [Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
 
-[Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
+![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
 
-[Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
-
-[Mindmeister map](https://www.mindmeister.com/1043749988)
-
-[Full GDD](/Documents/Developer%20notes/Game%20Design%20Document.md)
+![#e6b8cf](https://placehold.it/15/e6b8cf/000000?text=+) [Mindmeister map](https://www.mindmeister.com/1043749988)
 
 # Another Day To Be - Game Design Document
 
@@ -46,12 +43,11 @@
 
 ## Game Overwiew
 
-# IMAGE PLACEHOLDER TRAVEL / COMBAT
-
 ![text](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
 ![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
 
 #### Game Summary
+
 "Fallout 1 meets Sonny 2"
      
 Another Day To Be is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.
