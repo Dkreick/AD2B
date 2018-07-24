@@ -12,7 +12,7 @@
 
 [Full GDD](/Documents/Developer%20notes/Game%20Design%20Document.md)
 
-# Project “Another Day To Be” - Full Game Design Document
+# Another Day To Be - Game Design Document
 
 ## Table of Contents
 
@@ -55,6 +55,11 @@
 "Fallout 1 meets Sonny 2"
      
 Another Day To Be is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.
+
+#### What is the Game Genre?
+
+• Action Role Player Game
+• Turn Based Tactics
 
 #### What is the Player Experience?
 
