@@ -55,12 +55,15 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 #### What is the Game Genre?
 
 • Action Role Player Game
+
 • Turn Based Tactics
 
 #### What is the Player Experience?
 
 • Decisions
+
 • Randomness
+
 • Logics
 
 #### What is the Game’s Theme?
@@ -80,8 +83,11 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 #### What are the technical details?
 
 • Developed using: Unity3D 2018
+
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity
+
 • Platform(s): PC, WebGL
+
 • Controls: Mouse
 
 #### When will it launch?
@@ -119,8 +125,11 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 ## Gameplay Features
 
 • Combat turn with buffs and penalties
+
 • Map full of places to explore
+
 • Weapons, vehicles, cloth, drugs
+
 • Random events
 
 ### Combat turn with buffs and penalties
@@ -188,6 +197,7 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 ## Enemy Design
 
 • What is the overall design of the enemies?
+
 • What are your different enemy types and what do they do?
 
 ## [Brainstorm] General Ideas
