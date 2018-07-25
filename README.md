@@ -43,8 +43,8 @@
 
 ## Game Overwiew
 
-![text](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
-![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
+![TravelPreview](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
+![CombatPreview](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
 
 #### Game Summary
 
@@ -176,11 +176,51 @@ There will be different events when the player is travelling, here is a few exam
 
 # IMAGE PLACEHOLDER THEME
 
-#### Our Hero
+### Our Hero
 
 ![text](/Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg)
 
-Who is the character you play? What are their motivations? What is interesting about them? How is the player going to be controlling them? What are they going to do in the game?
+• The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
+
+### Conscript
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+### Medic
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+### Mechanic
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+### Scout
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
 
 #### Our Villain 
 
@@ -202,7 +242,9 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 
 ## [Brainstorm] General Ideas
 
-• This is a general section to put ideas, thoughts, comments, etc.
+• Karma system
+
+• Expand map and assets to all South America
 
 #### NPC Character Ideas
 
