@@ -16,14 +16,9 @@
 
 # Another Day To Be - Game Design Document
 
-
-
-## [Section I Want] 
-
-
 ## Table of Contents
 
-#### [► Game Overview](#-game-overview)
+#### ► Games Overview
      • Game Summary
      • What is the Game Genre?
      • What is the Player Experience?
@@ -33,20 +28,24 @@
      • What are the technical details?
      • Game Title Ideas
      • When will it launch?
-#### [► Camera, Character and Controls](#-camera-character-and-controls)
+#### ► Camera, Character and Controls
      • Menu Chart
-#### [► 30 Seconds Of Gameplay](#-30-seconds-of-gameplay)
-#### [► Gameplay Features](#-gameplay-features)
+#### ► 30 Seconds Of Gameplay
+#### ► Gameplay Features
      • Combat with buffs and debuffs
      • Map full off places and quests
      • Guns, food, drugs, vehicles and more...
      • Random events
-#### [► Story and Theme](#-story-and-theme)
+#### ► Story and Theme
      • Our Hero
-     • Our Villain
+          - Conscript
+          - Medic
+          - Mechanic
+          - Scout
+     • Our Villains
      • Our Struggle and Objective
      • Our Call To Action And Motivation
-#### • [► Brainstorm General Ideas](#-brainstorm-general-ideas)
+#### ► Brainstorm General Ideas
      • NPC Character Ideas
      • Puzzles and Challenges Ideas
      • Tools, Plugins, Assets, Notes
@@ -64,6 +63,8 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### What is the Game Genre?
 
+• 2D
+
 • Action Role Player Game
 
 • Turn Based Tactics
@@ -78,7 +79,11 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### What is the Game’s Theme?
 
-• Survive in a journey full of hazards.
+• Present dayr
+
+• Ruined civilization
+
+• South America.
 
 #### Who is the Target Audience?
 
@@ -86,7 +91,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### What is the Setting?
 
-• Present day, ruined civilization, South America.
+• Survive in a journey full of hazards.
 
 # IMAGE PLACEHOLDER THEME
 
@@ -110,11 +115,11 @@ No estimated date
 
 #### Camera
 
-It will consist in a 2D camera, llooking as is explained above.
+It will consist in a fixed 2D camera, looking as is explained above.
 
-#### Character
+#### Characters
 
-The player can be embody four different classes (Conscript, medic, mechanic and scout) and each one has a unique story. 
+The player can choose four different classes (Conscript, medic, mechanic and scout) and each one has a unique story. 
 
 #### Menu chart
 
@@ -125,6 +130,7 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 ### TEXT PLACEHOLDER
 
 #### Context / Setup:
+
 • What is the situation that this 30 seconds is going to take place in?
 
 ![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
@@ -134,13 +140,13 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 
 ## Gameplay Features
 
-• Combat turn with buffs and penalties
-
 • Map full of places to explore
 
-• Weapons, vehicles, cloth, drugs
+• Random events based on map location
 
-• Random events
+• Combat turn with buffs and penalties
+
+• Weapons, vehicles, cloth, drugs
 
 ### Combat turn with buffs and penalties
 
@@ -160,27 +166,27 @@ Explain all the details necessary to understand this feature. Use diagrams, imag
 
 There will be different events when the player is travelling, here is a few examples:
 
-1 - You were approached by a peaceful traveller, he looks unarmed and a little lost.  
-     A - Attempt to avoid by looking away  
-     B - Give him some directions  
-     C - Try to rob  
+     1 - You were approached by a peaceful traveller, he looks unarmed and a little lost.  
+          A - Attempt to avoid by looking away  
+          B - Give him some directions  
+          C - Try to rob  
 
-2 - You see a guy trying to rob someone, what do you want to do?  
-     A - None of my concern  
-     B - Interfer  
-     C - Silently kill the robber  
+     2 - You see a guy trying to rob someone, what do you want to do?  
+          A - None of my concern  
+          B - Interfer  
+          C - Silently kill the robber  
 
-3 - A large man is coming your way, there is nothing you can do  
-     A - Battle
+     3 - A large man is coming your way, there is nothing you can do  
+          A - Battle
 
-4 - A well armed caravan is ahead. Wanna trade?  
-     A - Yes  
-     B - No  
-     C - Attack
+     4 - A well armed caravan is ahead. Wanna trade?  
+          A - Yes  
+          B - No  
+          C - Attack
 
-5 - A dead body, looks recently killed.
-     A - Loot  
-     B - Keep moving
+     5 - A dead body, looks recently killed.
+          A - Loot  
+          B - Keep moving
   
 ## Story and Theme
 
@@ -232,13 +238,13 @@ There will be different events when the player is travelling, here is a few exam
 
 • What are they going to do in the game?
 
-#### Our Villain 
+#### Our Villains
 
 Who are the enemies in the game? If the enemies aren’t people, then what is the struggle in the game (eg. your game may be a puzzle game like “The Witness” - in that game the puzzles are the thing which the player is doing battle with.
 
 #### Our Struggle and objective
 
-• What are we trying to achieve in this game? Why is it a challenge?
+• Basically our general objective is make our own journey and eventually
 
 #### Our Call To Action And Motivation
 
@@ -250,7 +256,7 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 
 • What are your different enemy types and what do they do?
 
-## [Brainstorm] General Ideas
+## Brainstorm General Ideas
 
 • Karma system
 
@@ -266,4 +272,4 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 
 #### Tools, Plugins, Assets, Notes
 
-• And good resources that you want to remember for later
+• Make a dictionary in unity with all the assets
