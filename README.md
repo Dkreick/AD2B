@@ -1,45 +1,55 @@
-## Useful links
+## About me
+
 ![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin](https://www.linkedin.com/in/damiankreick)
+
+![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
+
+## Useful links
+
+![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
 
 ![#519839](https://placehold.it/15/519839/000000?text=+) [Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
 
 ![#b04632](https://placehold.it/15/b04632/000000?text=+) [Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
 
-![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
-
 ![#e6b8cf](https://placehold.it/15/e6b8cf/000000?text=+) [Mindmeister map](https://www.mindmeister.com/1043749988)
 
 # Another Day To Be - Game Design Document
 
+
+
+## [Section I Want] 
+
+
 ## Table of Contents
 
-#### • Game Overview
-     Game Summary  
-     What is the Game Genre?
-     What is the Player Experience?
-     What is the Game’s Theme?
-     Who is the Target Audience?
-     What is the Setting?
-     What are the technical details?
-     Game Title Ideas
-     When will it launch?
-#### • Camera, Character and Controls
-     Menu Chart
-#### • 30 Seconds Of Gameplay
-#### • Gameplay Features
-     Combat with buffs and debuffs
-     Map full off places and quests
-     Guns, food, drugs, vehicles and more...
-     Random events
-#### • Story and Theme
-     Our Hero
-     Our Villain
-     Our Struggle and Objective
-     Our Call To Action And Motivation
-#### • [Brainstorm] General Ideas
-     NPC Character Ideas
-     Puzzles and Challenges Ideas
-     Tools, Plugins, Assets, Notes
+#### [► Game Overview](#-game-overview)
+     • Game Summary
+     • What is the Game Genre?
+     • What is the Player Experience?
+     • What is the Game’s Theme?
+     • Who is the Target Audience?
+     • What is the Setting?
+     • What are the technical details?
+     • Game Title Ideas
+     • When will it launch?
+#### [► Camera, Character and Controls](#-camera-character-and-controls)
+     • Menu Chart
+#### [► 30 Seconds Of Gameplay](#-30-seconds-of-gameplay)
+#### [► Gameplay Features](#-gameplay-features)
+     • Combat with buffs and debuffs
+     • Map full off places and quests
+     • Guns, food, drugs, vehicles and more...
+     • Random events
+#### [► Story and Theme](#-story-and-theme)
+     • Our Hero
+     • Our Villain
+     • Our Struggle and Objective
+     • Our Call To Action And Motivation
+#### • [► Brainstorm General Ideas](#-brainstorm-general-ideas)
+     • NPC Character Ideas
+     • Puzzles and Challenges Ideas
+     • Tools, Plugins, Assets, Notes
 
 ## Game Overwiew
 
