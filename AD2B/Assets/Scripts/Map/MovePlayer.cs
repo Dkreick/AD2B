@@ -22,15 +22,17 @@ public class MovePlayer : MonoBehaviour
 
     void Update()
     {
-        if (isMoving)
+        if (isMoving && player.transform.localPosition.y <= -132)
         {
             player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);
 
-            eventTargetTime -= Time.deltaTime;
-            if (eventTargetTime <= 0.0f)
-            {
-                getRandomEvent();
-            }
+            ClampPosition();
+
+//            eventTargetTime -= Time.deltaTime;
+//            if (eventTargetTime <= 0.0f)
+//            {
+//                getRandomEvent();
+//            }
         }
 
         if (player.transform.position == target)
@@ -38,6 +40,15 @@ public class MovePlayer : MonoBehaviour
             isMoving = false;
             UpdateClock.timeMultiplier = 1;
         }
+    }
+
+    void ClampPosition()
+    {
+        if (player.transform.localPosition.y >= -132)
+        {
+            isMoving = false;
+            UpdateClock.timeMultiplier = 1;
+        }    
     }
 
     void getRandomEvent()
