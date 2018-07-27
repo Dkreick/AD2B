@@ -1,75 +1,89 @@
+## About me
+
+![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin](https://www.linkedin.com/in/damiankreick)
+
+![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
+
 ## Useful links
 
-[My linkedin](https://www.linkedin.com/in/damiankreick)
+![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
 
-[Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
+![#519839](https://placehold.it/15/519839/000000?text=+) [Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
 
-[Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
+![#b04632](https://placehold.it/15/b04632/000000?text=+) [Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
 
-[Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
-
-[Mindmeister map](https://www.mindmeister.com/1043749988)
-
-[Full GDD](/Documents/Developer%20notes/Game%20Design%20Document.md)
+![#e6b8cf](https://placehold.it/15/e6b8cf/000000?text=+) [Mindmeister map](https://www.mindmeister.com/1043749988)
 
 # Another Day To Be - Game Design Document
 
 ## Table of Contents
 
-#### • Game Overview
-     Game Summary  
-     What is the Game Genre?
-     What is the Player Experience?
-     What is the Game’s Theme?
-     Who is the Target Audience?
-     What is the Setting?
-     What are the technical details?
-     Game Title Ideas
-     When will it launch?
-#### • Camera, Character and Controls
-     Menu Chart
-#### • 30 Seconds Of Gameplay
-#### • Gameplay Features
-     Combat with buffs and debuffs
-     Map full off places and quests
-     Guns, food, drugs, vehicles and more...
-     Random events
-#### • Story and Theme
-     Our Hero
-     Our Villain
-     Our Struggle and Objective
-     Our Call To Action And Motivation
-#### • [Brainstorm] General Ideas
-     NPC Character Ideas
-     Puzzles and Challenges Ideas
-     Tools, Plugins, Assets, Notes
+#### ► Games Overview
+     • Game Summary
+     • What is the Game Genre?
+     • What is the Player Experience?
+     • What is the Game’s Theme?
+     • Who is the Target Audience?
+     • What is the Setting?
+     • What are the technical details?
+     • Game Title Ideas
+     • When will it launch?
+#### ► Camera, Character and Controls
+     • Menu Chart
+#### ► 30 Seconds Of Gameplay
+#### ► Gameplay Features
+     • Combat with buffs and debuffs
+     • Map full off places and quests
+     • Guns, food, drugs, vehicles and more...
+     • Random events
+#### ► Story and Theme
+     • Our Hero
+          - Conscript
+          - Medic
+          - Mechanic
+          - Scout
+     • Our Villains
+     • Our Struggle and Objective
+     • Our Call To Action And Motivation
+#### ► Brainstorm General Ideas
+     • NPC Character Ideas
+     • Puzzles and Challenges Ideas
+     • Tools, Plugins, Assets, Notes
 
 ## Game Overwiew
 
-# IMAGE PLACEHOLDER TRAVEL / COMBAT
-
-![text](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
-![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
+![TravelPreview](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
+![CombatPreview](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
 
 #### Game Summary
+
 "Fallout 1 meets Sonny 2"
      
 Another Day To Be is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.
 
 #### What is the Game Genre?
 
+• 2D
+
 • Action Role Player Game
+
 • Turn Based Tactics
 
 #### What is the Player Experience?
 
 • Decisions
+
 • Randomness
+
 • Logics
 
 #### What is the Game’s Theme?
 
-• Survive in a journey full of hazards.
+• Present dayr
+
+• Ruined civilization
+
+• South America.
 
 #### Who is the Target Audience?
 
@@ -77,15 +91,18 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### What is the Setting?
 
-• Present day, ruined civilization, South America.
+• Survive in a journey full of hazards.
 
 # IMAGE PLACEHOLDER THEME
 
 #### What are the technical details?
 
 • Developed using: Unity3D 2018
+
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity
+
 • Platform(s): PC, WebGL
+
 • Controls: Mouse
 
 #### When will it launch?
@@ -98,11 +115,11 @@ No estimated date
 
 #### Camera
 
-It will consist in a 2D camera, llooking as is explained above.
+It will consist in a fixed 2D camera, looking as is explained above.
 
-#### Character
+#### Characters
 
-The player can be embody four different classes (Conscript, medic, mechanic and scout) and each one has a unique story. 
+The player can choose four different classes (Conscript, medic, mechanic and scout) and each one has a unique story. 
 
 #### Menu chart
 
@@ -113,6 +130,7 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 ### TEXT PLACEHOLDER
 
 #### Context / Setup:
+
 • What is the situation that this 30 seconds is going to take place in?
 
 ![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
@@ -122,10 +140,13 @@ The player can be embody four different classes (Conscript, medic, mechanic and 
 
 ## Gameplay Features
 
-• Combat turn with buffs and penalties
 • Map full of places to explore
+
+• Random events based on map location
+
+• Combat turn with buffs and penalties
+
 • Weapons, vehicles, cloth, drugs
-• Random events
 
 ### Combat turn with buffs and penalties
 
@@ -145,45 +166,85 @@ Explain all the details necessary to understand this feature. Use diagrams, imag
 
 There will be different events when the player is travelling, here is a few examples:
 
-1 - You were approached by a peaceful traveller, he looks unarmed and a little lost.  
-     A - Attempt to avoid by looking away  
-     B - Give him some directions  
-     C - Try to rob  
+     1 - You were approached by a peaceful traveller, he looks unarmed and a little lost.  
+          A - Attempt to avoid by looking away  
+          B - Give him some directions  
+          C - Try to rob  
 
-2 - You see a guy trying to rob someone, what do you want to do?  
-     A - None of my concern  
-     B - Interfer  
-     C - Silently kill the robber  
+     2 - You see a guy trying to rob someone, what do you want to do?  
+          A - None of my concern  
+          B - Interfer  
+          C - Silently kill the robber  
 
-3 - A large man is coming your way, there is nothing you can do  
-     A - Battle
+     3 - A large man is coming your way, there is nothing you can do  
+          A - Battle
 
-4 - A well armed caravan is ahead. Wanna trade?  
-     A - Yes  
-     B - No  
-     C - Attack
+     4 - A well armed caravan is ahead. Wanna trade?  
+          A - Yes  
+          B - No  
+          C - Attack
 
-5 - A dead body, looks recently killed.
-     A - Loot  
-     B - Keep moving
+     5 - A dead body, looks recently killed.
+          A - Loot  
+          B - Keep moving
   
 ## Story and Theme
 
 # IMAGE PLACEHOLDER THEME
 
-#### Our Hero
+### Our Hero
 
 ![text](/Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg)
 
-Who is the character you play? What are their motivations? What is interesting about them? How is the player going to be controlling them? What are they going to do in the game?
+• The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
 
-#### Our Villain 
+### Conscript
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+### Medic
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+### Mechanic
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+### Scout
+
+• What are their motivations? 
+
+• What is interesting about them? 
+
+• How is the player going to be controlling them? 
+
+• What are they going to do in the game?
+
+#### Our Villains
 
 Who are the enemies in the game? If the enemies aren’t people, then what is the struggle in the game (eg. your game may be a puzzle game like “The Witness” - in that game the puzzles are the thing which the player is doing battle with.
 
 #### Our Struggle and objective
 
-• What are we trying to achieve in this game? Why is it a challenge?
+• Basically our general objective is make our own journey and eventually
 
 #### Our Call To Action And Motivation
 
@@ -192,11 +253,14 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 ## Enemy Design
 
 • What is the overall design of the enemies?
+
 • What are your different enemy types and what do they do?
 
-## [Brainstorm] General Ideas
+## Brainstorm General Ideas
 
-• This is a general section to put ideas, thoughts, comments, etc.
+• Karma system
+
+• Expand map and assets to all South America
 
 #### NPC Character Ideas
 
@@ -208,4 +272,4 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 
 #### Tools, Plugins, Assets, Notes
 
-• And good resources that you want to remember for later
+• Make a dictionary in unity with all the assets
