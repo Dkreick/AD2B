@@ -37,12 +37,16 @@
      • Guns, food, drugs, vehicles and more...
      • Random events
 #### ► Story and Theme
+     • Time and space
+     • Background story
      • Our Hero
           - Conscript
           - Medic
           - Mechanic
           - Scout
      • Our Villains
+          - Bandits
+          - Creatures
      • Our Struggle and Objective
      • Our Call To Action And Motivation
 #### ► Brainstorm General Ideas
@@ -190,6 +194,16 @@ There will be different events when the player is travelling, here is a few exam
   
 ## Story and Theme
 
+### Time and space
+
+The game takes place in year 2020, only two months after the breakdown in the bottom half of South America. An improvised quarantine border was built along the Tropic of Capricorn guarded by BOPE and UN troops who will shoot on sight. The purpose of this border is to maintain the security in Central and North America and stop the propagation of dangerous species.
+
+Some places of the map are affected by differents catastrophes, such as nuclear accidents, typhoons, floods, droughts and the most important, crop contamination who caused famine and the raise of dangerous species of plants and animals.
+
+### Background story
+
+
+
 # IMAGE PLACEHOLDER THEME
 
 ### Our Hero
@@ -199,6 +213,8 @@ There will be different events when the player is travelling, here is a few exam
 • The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
 
 ### Conscript
+
+Born in 1982, son of a fallen argentinean soldier.
 
 • What are their motivations? 
 
@@ -259,6 +275,8 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 ## Brainstorm General Ideas
 
 • Karma system
+
+• Make a timeline for background successes.
 
 • Expand map and assets to all South America
 
