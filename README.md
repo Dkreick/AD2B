@@ -1,6 +1,6 @@
 ## About me
 
-![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin](https://www.linkedin.com/in/damiankreick)
+![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin profile](https://www.linkedin.com/in/damiankreick)
 
 ![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
 
@@ -18,46 +18,63 @@
 
 ## Table of Contents
 
-#### ► Games Overview
-     • Game Summary
-     • What is the Game Genre?
-     • What is the Player Experience?
-     • What is the Game’s Theme?
-     • Who is the Target Audience?
-     • What is the Setting?
-     • What are the technical details?
-     • Game Title Ideas
-     • When will it launch?
+#### ► Game Overview
+
+• [Game Summary](#game-summary)  
+• [What is the Game Genre?](#what-is-the-game-genre)  
+• [What is the Player Experience?](#what-is-the-player-experience)  
+• [What is the Game’s Theme?](#what-is-the-games-theme)  
+• [Who is the Target Audience?](#who-is-the-target-audience)  
+• [What is the Setting?](#what-is-the-setting)  
+• [What are the technical details?](#what-are-the-technical-details)  
+• [Game Title Ideas](#game-title-ideas)  
+• [When will it launch?](#when-will-it-launch)  
+
 #### ► Camera, Character and Controls
-     • Menu Chart
+
+• [Menu Chart](#menu-chart)
+     
 #### ► 30 Seconds Of Gameplay
+
+
 #### ► Gameplay Features
-     • Combat with buffs and debuffs
-     • Map full off places and quests
-     • Guns, food, drugs, vehicles and more...
-     • Random events
+
+• [Combat with buffs and debuffs](#combat-with-buffs-and-debuffs)  
+• [Map full off places and quests](#map-full-off-places-and-quests)  
+• [Guns, food, drugs, vehicles and more...](#guns-food-drugs-and-more)  
+• [Random events](#random-events)
+     
 #### ► Story and Theme
-     • Time and space
-     • Background story
-     • Our Hero
-          - Conscript
-          - Medic
-          - Mechanic
-          - Scout
-     • Our Villains
-          - Bandits
-          - Creatures
-     • Our Struggle and Objective
-     • Our Call To Action And Motivation
+
+• [Time and space](#time-and-space)  
+• [Background story](#background-story)  
+• [Our Hero](#our-hero) 
+
+     - Conscript
+     - Medic
+     - Mechanic
+     - Scout
+     
+• [Our Villains](#our-villains)  
+
+     - Bandits
+     - Creatures
+     
+• [Our Struggle and Objective](#our-struggle-and-objective)  
+• [Our Call To Action And Motivation](#our-call-to-action-and-motivation)  
+     
 #### ► Brainstorm General Ideas
-     • NPC Character Ideas
-     • Puzzles and Challenges Ideas
-     • Tools, Plugins, Assets, Notes
 
-## Game Overwiew
+• [NPC Character Ideas](#npc-character-ideas)  
+• [Puzzles and Challenges Ideas](#puzzles-and-challenges-ideas)  
+• [Tools, Plugins, Assets, Notes](#tools-plugins-assets-notes)  
 
-![TravelPreview](/Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg)
-![CombatPreview](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
+#### Game Overwiew
+
+<p align="center">
+  <img src="Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg" align="center"/>
+  <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg" align="center"/>
+</p>
 
 #### Game Summary
 
@@ -83,7 +100,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### What is the Game’s Theme?
 
-• Present dayr
+• Present day
 
 • Ruined civilization
 
@@ -115,7 +132,9 @@ No estimated date
 
 ## Camera, Character and Controls
 
-![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
+<p align="center">
+  <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg" align="center"/>
+</p>
 
 #### Camera
 
@@ -127,7 +146,9 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 
 #### Menu chart
 
-![text](/Documents/Developer%20notes/GDD%20Images/Menu%20Chart.png)
+<p align="center">
+  <img src="Documents/Developer%20notes/GDD%20Images/Menu%20Chart.png" align="center" />
+</p>
 
 ## 30 Seconds Of Gameplay
 
@@ -137,9 +158,12 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 
 • What is the situation that this 30 seconds is going to take place in?
 
-![text](/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg)
+<p align="center">
+     <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg" align="center" />
+</p>
 
 #### Player Actions:
+
 • Write this from the perspective of “you see this, then you click on the button then the screen does such-and-such” and so on. 
 
 ## Gameplay Features
@@ -156,11 +180,15 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 
 Explain all the details necessary to understand this feature. Use diagrams, images, sketches, screenshots, tables, etc in order to be clear.
 
-![text](/Documents/Developer%20notes/GDD%20Images/SketchCombat.png)
+<p align="center">
+     <img src="Documents/Developer%20notes/GDD%20Images/SketchCombat.png" align="center" />
+</p>
 
 ### Map full of places to explore
 
-![text](/Documents/Developer%20notes/GDD%20Images/SketchTravel.png)
+<p align="center">
+     <img src="Documents/Developer%20notes/GDD%20Images/SketchTravel.png" align="center" />
+</p>
 
 ### Guns, food, drugs, vehicles and more...
 
@@ -208,7 +236,9 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 
 ### Our Hero
 
-![text](/Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg)
+<p align="center">
+     <img src="Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg" align="center" />
+</p>
 
 • The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
 
@@ -290,4 +320,4 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 
 #### Tools, Plugins, Assets, Notes
 
-• Make a dictionary in unity with all the assets
+• Make a dictionary in Unity3D with all the assets
