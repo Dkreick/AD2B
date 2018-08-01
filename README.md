@@ -27,7 +27,6 @@
 • [Who is the Target Audience?](#who-is-the-target-audience)  
 • [What is the Setting?](#what-is-the-setting)  
 • [What are the technical details?](#what-are-the-technical-details)  
-• [Game Title Ideas](#game-title-ideas)  
 • [When will it launch?](#when-will-it-launch)  
 
 #### ► Camera, Character and Controls
@@ -84,51 +83,43 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### What is the Game Genre?
 
-• 2D
-
-• Action Role Player Game
-
-• Turn Based Tactics
+• 2D  
+• Action Role Player Game  
+• Turn Based Tactics  
 
 #### What is the Player Experience?
 
-• Decisions
-
-• Randomness
-
-• Logics
+• Decisions  
+• Randomness  
+• Logics  
 
 #### What is the Game’s Theme?
 
-• Present day
-
-• Ruined civilization
-
-• South America.
+• Present day  
+• Ruined civilization  
+• South America.  
 
 #### Who is the Target Audience?
 
-• 13+, people who like to carry on decisions and expect some different results.
+• 13+, people who like to carry on decisions and expect some different results.  
 
 #### What is the Setting?
 
-• Survive in a journey full of hazards.
+• Survive in a journey full of hazards.  
 
 # IMAGE PLACEHOLDER THEME
 
 #### What are the technical details?
 
-• Developed using: Unity3D 2018
-
-• Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity
-
-• Platform(s): PC, WebGL
-
-• Controls: Mouse
+• Developed using: Unity3D 2018  
+• Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity  
+• Platform(s): PC, WebGL  
+• Controls: Mouse  
 
 #### When will it launch?
 
-No estimated date
+• No estimated date  
+• Expected to have a working demo before 2019
 
 ## Camera, Character and Controls
 
@@ -138,7 +129,7 @@ No estimated date
 
 #### Camera
 
-It will consist in a fixed 2D camera, looking as is explained above.
+• It will consist in a fixed 2D camera, looking as is explained above.  
 
 #### Characters
 
@@ -168,13 +159,10 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 
 ## Gameplay Features
 
-• Map full of places to explore
-
-• Random events based on map location
-
-• Combat turn with buffs and penalties
-
-• Weapons, vehicles, cloth, drugs
+• Map full of places to explore  
+• Random events based on map location  
+• Combat turn with buffs and penalties  
+• Weapons, vehicles, cloth, drugs  
 
 ### Combat turn with buffs and penalties
 
@@ -246,43 +234,31 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 
 Born in 1982, son of a fallen argentinean soldier.
 
-• What are their motivations? 
-
-• What is interesting about them? 
-
-• How is the player going to be controlling them? 
-
-• What are they going to do in the game?
+• What are their motivations?  
+• What is interesting about them?  
+• How is the player going to be controlling them?  
+• What are they going to do in the game?  
 
 ### Medic
 
-• What are their motivations? 
-
-• What is interesting about them? 
-
-• How is the player going to be controlling them? 
-
-• What are they going to do in the game?
+• What are their motivations?  
+• What is interesting about them?  
+• How is the player going to be controlling them?  
+• What are they going to do in the game?  
 
 ### Mechanic
 
-• What are their motivations? 
-
-• What is interesting about them? 
-
-• How is the player going to be controlling them? 
-
-• What are they going to do in the game?
+• What are their motivations?  
+• What is interesting about them?  
+• How is the player going to be controlling them?  
+• What are they going to do in the game?  
 
 ### Scout
 
-• What are their motivations? 
-
-• What is interesting about them? 
-
-• How is the player going to be controlling them? 
-
-• What are they going to do in the game?
+• What are their motivations?  
+• What is interesting about them?  
+• How is the player going to be controlling them?  
+• What are they going to do in the game?  
 
 #### Our Villains
 
@@ -290,34 +266,31 @@ Who are the enemies in the game? If the enemies aren’t people, then what is th
 
 #### Our Struggle and objective
 
-• Basically our general objective is make our own journey and eventually
+• Basically our general objective is make our own journey and eventually  
 
 #### Our Call To Action And Motivation
 
-• What is the clear force driving the player forward? What are they goals? 
+• What is the clear force driving the player forward? What are they goals?  
 
 ## Enemy Design
 
-• What is the overall design of the enemies?
-
-• What are your different enemy types and what do they do?
+• What is the overall design of the enemies?  
+• What are your different enemy types and what do they do?  
 
 ## Brainstorm General Ideas
 
-• Karma system
-
-• Make a timeline for background successes.
-
+• Karma system  
+• Make a timeline for background successes   
 • Expand map and assets to all South America
 
 #### NPC Character Ideas
 
-• Ideas for NPCs in our game
+• Ideas for NPCs in our game  
 
 #### Puzzles and Challenges Ideas
 
-•  Ideas for puzzles and challenges in our game
+•  Ideas for puzzles and challenges in our game  
 
 #### Tools, Plugins, Assets, Notes
 
-• Make a dictionary in Unity3D with all the assets
+• Make a dictionary in Unity3D with all the assets  
