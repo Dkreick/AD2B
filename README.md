@@ -1,5 +1,7 @@
 ## About me
 
+        
+
 ![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin profile](https://www.linkedin.com/in/damiankreick)
 
 ![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
@@ -15,6 +17,8 @@
 ![#e6b8cf](https://placehold.it/15/e6b8cf/000000?text=+) [Mindmeister map](https://www.mindmeister.com/1043749988)
 
 # Another Day To Be - Game Design Document
+
+<p align="center"><img src="https://img.shields.io/badge/Version-2017.3.1.f1-brightgreen.svg"/> <img src="https://img.shields.io/badge/Status-Not deployed-red.svg"/> <img src="https://img.shields.io/badge/Contribuitors-Welcome-blue.svg"/></p>
 
 ## Table of Contents
 
