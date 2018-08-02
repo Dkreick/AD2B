@@ -6,19 +6,21 @@
 
 ![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
 
+
+
+<p align="center"><img src="Documents/Developer%20notes/GDD%20Images/Title.jpg"/></p>
+
+<p align="center"><img src="https://img.shields.io/badge/Version-2017.3.1.f1-brightgreen.svg"/> <img src="https://img.shields.io/badge/Status-Not deployed-red.svg"/> <img src="https://img.shields.io/badge/Contribuitors-Welcome-blue.svg"/></p>
+
 ## Useful links
 
-![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)
+![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe) 
 
-![#519839](https://placehold.it/15/519839/000000?text=+) [Trello board - Development](https://trello.com/b/F4LrRcHZ/ad2b-development)
+![#519839](https://placehold.it/15/519839/000000?text=+) [Trello board - Development](https://trello.com/b/orFCsnAM/ad2b-development)
 
 ![#b04632](https://placehold.it/15/b04632/000000?text=+) [Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
 
 ![#e6b8cf](https://placehold.it/15/e6b8cf/000000?text=+) [Mindmeister map](https://www.mindmeister.com/1043749988)
-
-# Another Day To Be - Game Design Document
-
-<p align="center"><img src="https://img.shields.io/badge/Version-2017.3.1.f1-brightgreen.svg"/> <img src="https://img.shields.io/badge/Status-Not deployed-red.svg"/> <img src="https://img.shields.io/badge/Contribuitors-Welcome-blue.svg"/></p>
 
 ## Table of Contents
 
@@ -75,8 +77,8 @@
 #### Game Overwiew
 
 <p align="center">
-  <img src="Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg" align="center"/>
-  <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg" align="center"/>
+  <img src="Documents/Developer%20notes/GDD%20Images/TravelPreview.jpg"/>
+  <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg"/>
 </p>
 
 #### Game Summary
@@ -128,7 +130,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 ## Camera, Character and Controls
 
 <p align="center">
-  <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg" align="center"/>
+  <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg"/>
 </p>
 
 #### Camera
@@ -142,7 +144,7 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 #### Menu chart
 
 <p align="center">
-  <img src="Documents/Developer%20notes/GDD%20Images/Menu%20Chart.png" align="center" />
+  <img src="Documents/Developer%20notes/GDD%20Images/Menu%20Chart.png"/>
 </p>
 
 ## 30 Seconds Of Gameplay
@@ -154,7 +156,7 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 • What is the situation that this 30 seconds is going to take place in?
 
 <p align="center">
-     <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg" align="center" />
+     <img src="Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg"/>
 </p>
 
 #### Player Actions:
@@ -173,13 +175,13 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 Explain all the details necessary to understand this feature. Use diagrams, images, sketches, screenshots, tables, etc in order to be clear.
 
 <p align="center">
-     <img src="Documents/Developer%20notes/GDD%20Images/SketchCombat.png" align="center" />
+     <img src="Documents/Developer%20notes/GDD%20Images/SketchCombat.png"/>
 </p>
 
 ### Map full of places to explore
 
 <p align="center">
-     <img src="Documents/Developer%20notes/GDD%20Images/SketchTravel.png" align="center" />
+     <img src="Documents/Developer%20notes/GDD%20Images/SketchTravel.png"/>
 </p>
 
 ### Guns, food, drugs, vehicles and more...
@@ -229,7 +231,7 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 ### Our Hero
 
 <p align="center">
-     <img src="Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg" align="center" />
+     <img src="Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg"/>
 </p>
 
 • The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
