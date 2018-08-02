@@ -35,13 +35,10 @@
 #### ► Camera, Character and Controls
 
 • [Menu Chart](#menu-chart)
-     
-#### ► 30 Seconds Of Gameplay
-
-
 
 #### ► Gameplay Features
 
+• [30 Seconds Of Gameplay](#30-seconds-of-gameplay)  
 • [Combat with buffs and debuffs](#combat-with-buffs-and-debuffs)  
 • [Map full of places to explore](#map-full-of-places-to-explore)  
 • [Guns, food, drugs, vehicles and more...](#guns-food-drugs-vehicles-and-more) 
@@ -66,6 +63,7 @@
      
 • [Our Struggle and Objective](#our-struggle-and-objective)  
 • [Our Call To Action And Motivation](#our-call-to-action-and-motivation)  
+• [Enemy design](#enemy-design)  
      
 #### ► Brainstorm General Ideas
 
@@ -81,8 +79,6 @@
 </p>
 
 #### Game Summary
-
-"Fallout 1 meets Sonny 2"
      
 Another Day To Be is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.
 
@@ -102,7 +98,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 • Present day  
 • Ruined civilization  
-• South America.  
+• South America  
 
 #### Who is the Target Audience?
 
@@ -119,7 +115,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 • Developed using: Unity3D 2018  
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity  
 • Platform(s): PC, WebGL  
-• Controls: Mouse  
+• Controls: Mouse, keyboard for hotkeys  
 
 #### When will it launch?
 
@@ -138,17 +134,17 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### Characters
 
-The player can choose four different classes (Conscript, medic, mechanic and scout) and each one has a unique story. 
+• The player can choose up to four different classes (Conscript, medic, mechanic and scout) and each one has a unique story to play. 
+
+#### Controls
+
+• Mouse, keyboard for hotkeys  
 
 #### Menu chart
 
 <p align="center">
   <img src="Documents/Developer%20notes/GDD%20Images/Menu%20Chart.png"/>
 </p>
-
-## 30 Seconds Of Gameplay
-
-### TEXT PLACEHOLDER
 
 #### Context / Setup:
 
@@ -161,8 +157,13 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 #### Player Actions:
 
 • Write this from the perspective of “you see this, then you click on the button then the screen does such-and-such” and so on. 
+• You navigate in the map to a certain location, in the middle of travel a popup can  show displaying some random event, depending on your actions it may will lead you to a fight for example, in that case you need to defeat the enemy in order to continue your journey.
 
 ## Gameplay Features
+
+### 30 Seconds Of Gameplay
+
+```_In just 30 seconds, the player can experience the creation of his character to the beginning of the journey. In middle game, 30 seconds of gameplay may take place in combat and involve many effects and outputs. Other scenario can be a simple navigation through the map and participate in differents events._```
 
 • Map full of places to explore  
 • Random events based on map location  
@@ -171,11 +172,11 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 
 ### Combat with buffs and debuffs
 
-Explain all the details necessary to understand this feature. Use diagrams, images, sketches, screenshots, tables, etc in order to be clear.
-
 <p align="center">
      <img src="Documents/Developer%20notes/GDD%20Images/SketchCombat.png"/>
 </p>
+
+In combat, both player and enemy will have differents attributes 
 
 ### Map full of places to explore
 
