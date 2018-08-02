@@ -1,11 +1,8 @@
-## About me
-
-        
+## About me        
 
 ![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin profile](https://www.linkedin.com/in/damiankreick)
 
 ![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
-
 
 
 <p align="center"><img src="Documents/Developer%20notes/GDD%20Images/Title.jpg"/></p>
@@ -14,13 +11,13 @@
 
 ## Useful links
 
-![#b04632](https://placehold.it/15/000000/000000?text=+) [Wikia](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe) 
+[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)  
 
-![#519839](https://placehold.it/15/519839/000000?text=+) [Trello board - Development](https://trello.com/b/orFCsnAM/ad2b-development)
+[<img src="https://img.shields.io/badge/Trello Board-Development-519839.svg"/>](https://trello.com/b/orFCsnAM/ad2b-development)  
 
-![#b04632](https://placehold.it/15/b04632/000000?text=+) [Trello board - Bugs](https://trello.com/b/wxyOYmrM/ad2b-bugs)
+[<img src="https://img.shields.io/badge/Trello Board-Bugs-b04632.svg"/>](https://trello.com/b/wxyOYmrM/ad2b-bugs)  
 
-![#e6b8cf](https://placehold.it/15/e6b8cf/000000?text=+) [Mindmeister map](https://www.mindmeister.com/1043749988)
+[<img src="https://img.shields.io/badge/Mindmeister Map-Concepts-e6b8cf.svg"/>](https://www.mindmeister.com/1043749988)
 
 ## Table of Contents
 
@@ -42,11 +39,13 @@
 #### ► 30 Seconds Of Gameplay
 
 
+
 #### ► Gameplay Features
 
 • [Combat with buffs and debuffs](#combat-with-buffs-and-debuffs)  
-• [Map full off places and quests](#map-full-off-places-and-quests)  
-• [Guns, food, drugs, vehicles and more...](#guns-food-drugs-and-more)  
+• [Map full of places to explore](#map-full-of-places-to-explore)  
+• [Guns, food, drugs, vehicles and more...](#guns-food-drugs-vehicles-and-more) 
+
 • [Random events](#random-events)
      
 #### ► Story and Theme
@@ -170,7 +169,7 @@ The player can choose four different classes (Conscript, medic, mechanic and sco
 • Combat turn with buffs and penalties  
 • Weapons, vehicles, cloth, drugs  
 
-### Combat turn with buffs and penalties
+### Combat with buffs and debuffs
 
 Explain all the details necessary to understand this feature. Use diagrams, images, sketches, screenshots, tables, etc in order to be clear.
 
