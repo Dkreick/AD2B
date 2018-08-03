@@ -59,15 +59,13 @@
 • [Our Villains](#our-villains)  
 
      - Bandits
-     - Creatures
-     
-• [Our Struggle and Objective](#our-struggle-and-objective)  
-• [Our Call To Action And Motivation](#our-call-to-action-and-motivation)  
+     - Creatures   
+
 • [Enemy design](#enemy-design)  
+• [Our Struggle and Objective](#our-struggle-and-objective)  
      
 #### ► Brainstorm General Ideas
 
-• [NPC Character Ideas](#npc-character-ideas)  
 • [Puzzles and Challenges Ideas](#puzzles-and-challenges-ideas)  
 • [Tools, Plugins, Assets, Notes](#tools-plugins-assets-notes)  
 
@@ -115,6 +113,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 • Developed using: Unity3D 2018  
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity  
 • Platform(s): PC, WebGL  
+• Deploy on: [Itch.io](https://itch.io)  
 • Controls: Mouse, keyboard for hotkeys  
 
 #### When will it launch?
@@ -186,11 +185,11 @@ In combat, both player and enemy will have differents attributes
 
 ### Guns, food, drugs, vehicles and more...
 
-# IMAGE PLACEHOLDER ITEMS
+# IMAGE PLACEHOLDER DICTIONARY ITEMS
 
 ### Random events
 
-There will be different events when the player is travelling, here is a few examples:
+There will be different events when the player is travelling, here is a short list of examples:
 
      1 - You were approached by a peaceful traveller, he looks unarmed and a little lost.  
           A - Attempt to avoid by looking away  
@@ -238,65 +237,61 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 
 ### Conscript
 
-Born in 1982, son of a fallen argentinean soldier.
-
-• What are their motivations?  
-• What is interesting about them?  
-• How is the player going to be controlling them?  
-• What are they going to do in the game?  
+• What is his story?  
+• What is his objective?  
+• What is interesting about this class?  
+• How is his skill tree?  
 
 ### Medic
 
-• What are their motivations?  
-• What is interesting about them?  
-• How is the player going to be controlling them?  
-• What are they going to do in the game?  
+• What is his story?  
+• What is his objective?  
+• What is interesting about this class?  
+• How is his skill tree?  
 
 ### Mechanic
 
-• What are their motivations?  
-• What is interesting about them?  
-• How is the player going to be controlling them?  
-• What are they going to do in the game?  
+• What is his story?  
+• What is his objective?  
+• What is interesting about this class?  
+• How is his skill tree?  
 
 ### Scout
 
-• What are their motivations?  
-• What is interesting about them?  
-• How is the player going to be controlling them?  
-• What are they going to do in the game?  
+• What is his story?  
+• What is his objective?  
+• What is interesting about this class?  
+• How is his skill tree?  
 
 #### Our Villains
 
-Who are the enemies in the game? If the enemies aren’t people, then what is the struggle in the game (eg. your game may be a puzzle game like “The Witness” - in that game the puzzles are the thing which the player is doing battle with.
+### Bandits  
 
-#### Our Struggle and objective
+_With the end of modern society, most of the people were left on their own, and the will of surviving led them to steal, hurt and even kill each other. Some bandits move alone, others in packs. They may be armed or not, they may forgive you or not._
 
-• Basically our general objective is make our own journey and eventually  
+### Creatures  
 
-#### Our Call To Action And Motivation
-
-• What is the clear force driving the player forward? What are they goals?  
+_Along with the corruption of the people, the wild life suffered the same fate. Many species slowly became wilder and vicious due contamination of crops._
 
 ## Enemy Design
 
 • What is the overall design of the enemies?  
 • What are your different enemy types and what do they do?  
 
+#### Our Struggle and objective
+
+• Basically our general objective is make our own journey and eventually reach the border and escape the zone.  
+
 ## Brainstorm General Ideas
 
-• Karma system  
-• Make a timeline for background successes   
-• Expand map and assets to all South America
-
-#### NPC Character Ideas
-
-• Ideas for NPCs in our game  
+• Make a timeline for background successes  
+• Expand map and assets to include Chile and maybe Brazil weapons/vehicles  
 
 #### Puzzles and Challenges Ideas
 
-•  Ideas for puzzles and challenges in our game  
+•  Karma System  
 
 #### Tools, Plugins, Assets, Notes
 
 • Make a dictionary in Unity3D with all the assets  
+• Start thinking of some creatures designs.
