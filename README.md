@@ -233,35 +233,77 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
      <img src="Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg"/>
 </p>
 
-• The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
+• The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique style to play.
 
 ### Conscript
 
-• What is his story?  
-• What is his objective?  
-• What is interesting about this class?  
-• How is his skill tree?  
+##### Description  
+
+_The Conscript character is perfect for those who want to focus on combat or for those who are new in the game. It offers many combat buffs and is slighty better with all ranged weapons._
+
+##### Traits
+
+• Skilled on assault rifles  
+• Increased health and accuracy  
+
+##### Story and objective
+
+##### Skill tree and habilities  
+
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ### Medic
 
-• What is his story?  
-• What is his objective?  
-• What is interesting about this class?  
-• How is his skill tree?  
+##### Description  
+
+_The harder class to start due his low health, but the most powerful in late game. The medic class can heal himself on every turn_
+
+##### Traits
+
+• Skilled submachine guns  
+• Regeneration per turn  
+
+##### Story and objective
+
+##### Skill tree and habilities  
+
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ### Mechanic
 
-• What is his story?  
-• What is his objective?  
-• What is interesting about this class?  
-• How is his skill tree?  
+##### Description  
+
+_A class very interesting to travel by car. Is very efficient driving and therefore fuel last longer. Also it can be use as berserker_
+
+##### Traits
+
+• Skilled on shotguns  
+• Less fuel consumption
+• Better chance to find car parts  
+
+##### Story and objective
+
+##### Skill tree and habilities  
+
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ### Scout
 
-• What is his story?  
-• What is his objective?  
-• What is interesting about this class?  
-• How is his skill tree?  
+##### Description  
+
+_Scout class is perfect for events that can happen. Has a increased chance to avoid a fight and can resist more hours without food or water. Unfortunately he is pretty weak._
+
+##### Traits
+
+• Skilled on sniper rifles  
+• Better luck on travel  
+• Decreased needs rate  
+
+##### Story and objective
+
+##### Skill tree and habilities  
+
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 #### Our Villains
 
