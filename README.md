@@ -1,23 +1,25 @@
 ## About me        
 
-![#0077b5](https://placehold.it/15/0077b5/000000?text=+) [My linkedin profile](https://www.linkedin.com/in/damiankreick)
+• [My linkedin profile](https://www.linkedin.com/in/damiankreick)
 
-![#fa5c5c](https://placehold.it/15/fa5c5c/000000?text=+) [My Itch.io profile](https://damiankreick.itch.io/)
-
+• [My Itch.io profile](https://damiankreick.itch.io/)
 
 <p align="center"><img src="Documents/Developer%20notes/GDD%20Images/Title.jpg"/></p>
 
-<p align="center"><img src="https://img.shields.io/badge/Version-2017.3.1.f1-brightgreen.svg"/> <img src="https://img.shields.io/badge/Status-Not deployed-red.svg"/> <img src="https://img.shields.io/badge/Contribuitors-Welcome-blue.svg"/></p>
+<p align="center"><img src="https://img.shields.io/badge/Version-2017.3.1.f1-brightgreen.svg"/> <img src="https://img.shields.io/badge/Status-Not deployed-red.svg"/> <img src="https://img.shields.io/badge/Contribuitors-Welcome-blue.svg"/> <img src="https://img.shields.io/badge/Build Version-1.0-orange.svg"/></p> 
 
-## Useful links
+## Useful links for developers
 
-[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)  
-
+[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe) 
 [<img src="https://img.shields.io/badge/Trello Board-Development-519839.svg"/>](https://trello.com/b/orFCsnAM/ad2b-development)  
-
 [<img src="https://img.shields.io/badge/Trello Board-Bugs-b04632.svg"/>](https://trello.com/b/wxyOYmrM/ad2b-bugs)  
-
 [<img src="https://img.shields.io/badge/Mindmeister Map-Concepts-e6b8cf.svg"/>](https://www.mindmeister.com/1043749988)
+
+## How to download and play
+
+Go to the folder [Web Build](../Web%20build), download it and open [index.html](../Web%20build/index.html). ![#ff0000](https://placehold.it/15/ff0000/ff0000?text=+) **Don't use Google Chrome**
+
+# Game Design Document
 
 ## Table of Contents
 
