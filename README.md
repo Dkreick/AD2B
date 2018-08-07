@@ -10,7 +10,7 @@
 
 ## Useful links for developers
 
-[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe) 
+[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)   
 [<img src="https://img.shields.io/badge/Trello Board-Development-519839.svg"/>](https://trello.com/b/orFCsnAM/ad2b-development)  
 [<img src="https://img.shields.io/badge/Trello Board-Bugs-b04632.svg"/>](https://trello.com/b/wxyOYmrM/ad2b-bugs)  
 [<img src="https://img.shields.io/badge/Mindmeister Map-Concepts-e6b8cf.svg"/>](https://www.mindmeister.com/1043749988)
@@ -62,8 +62,7 @@ Go to the folder [Web Build](../Web%20build), download it and open [index.html](
 
      - Bandits
      - Creatures   
-
-• [Enemy design](#enemy-design)  
+     
 • [Our Struggle and Objective](#our-struggle-and-objective)  
      
 #### ► Brainstorm General Ideas
@@ -239,88 +238,129 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 
 ### Conscript
 
-##### Description  
+#### Description  
 
 _The Conscript character is perfect for those who want to focus on combat or for those who are new in the game. It offers many combat buffs and is slighty better with all ranged weapons._
 
-##### Traits
+#### Traits
 
 • Skilled on assault rifles  
-• Increased health and accuracy  
+• Increased health
+• Slighty increased accuracy
 
-##### Story and objective
+#### Story and objective
 
-##### Skill tree and habilities  
+
+
+#### Skill tree and habilities 
+
+##### Actives
+
+     • Last stand (10 turns to CD): Negates the enemy damage up to 90%.
+
+##### Passives
+
+     • Marksmanship (5 levels): Increase damage output by 2% each level.
 
 # SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ### Medic
 
-##### Description  
+#### Description  
 
 _The harder class to start due his low health, but the most powerful in late game. The medic class can heal himself on every turn_
 
-##### Traits
+#### Traits
 
 • Skilled submachine guns  
 • Regeneration per turn  
+• Food & drink more effective
 
-##### Story and objective
+#### Story and objective
 
-##### Skill tree and habilities  
+
+
+#### Skill tree and habilities  
+
+##### Actives
+
+     • Anesthesia (5 turns to CD): 50% chance to knock the enemy down for 1 turn
+
+##### Passives
+
+     • Intensive care (5 levels): Increase health regeneration .
 
 # SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ### Mechanic
 
-##### Description  
+#### Description  
 
 _A class very interesting to travel by car. Is very efficient driving and therefore fuel last longer. Also it can be use as berserker_
 
-##### Traits
+#### Traits
 
 • Skilled on shotguns  
 • Less fuel consumption
 • Better chance to find car parts  
 
-##### Story and objective
+#### Story and objective
 
-##### Skill tree and habilities  
+#### Skill tree and habilities  
+
+##### Actives
+
+     • Berserker (6 turns to CD): +30% damage output with melee weapons for 3 turns.
+
+##### Passives
+
+     • Grease Monkey (5 levels): Decrease fuel consumption by 5% each level.
 
 # SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ### Scout
 
-##### Description  
+#### Description  
 
 _Scout class is perfect for events that can happen. Has a increased chance to avoid a fight and can resist more hours without food or water. Unfortunately he is pretty weak._
 
-##### Traits
+#### Traits
 
 • Skilled on sniper rifles  
 • Better luck on travel  
 • Decreased needs rate  
 
-##### Story and objective
+#### Story and objective
 
-##### Skill tree and habilities  
+#### Skill tree and habilities  
+
+##### Actives
+
+     • Bullseye (5 turns to CD): +50% accuracy for the next turn
+
+##### Passives
+
+     • Globetrotter (10 levels): Decrease needs rate by 3% each level.
 
 # SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
-#### Our Villains
+### Our Villains
 
-### Bandits  
+#### Bandits  
 
 _With the end of modern society, most of the people were left on their own, and the will of surviving led them to steal, hurt and even kill each other. Some bandits move alone, others in packs. They may be armed or not, they may forgive you or not._
 
-### Creatures  
+##### Design 
+
+
+
+#### Creatures  
 
 _Along with the corruption of the people, the wild life suffered the same fate. Many species slowly became wilder and vicious due contamination of crops._
 
-## Enemy Design
+##### Design 
 
-• What is the overall design of the enemies?  
-• What are your different enemy types and what do they do?  
+
 
 #### Our Struggle and objective
 
@@ -329,13 +369,13 @@ _Along with the corruption of the people, the wild life suffered the same fate. 
 ## Brainstorm General Ideas
 
 • Make a timeline for background successes  
-• Expand map and assets to include Chile and maybe Brazil weapons/vehicles  
+• Expand assets library to include Chile and maybe Brazil weapons/vehicles  
 
 #### Puzzles and Challenges Ideas
 
-•  Karma System  
+• Karma System  
 
 #### Tools, Plugins, Assets, Notes
 
 • Make a dictionary in Unity3D with all the assets  
-• Start thinking of some creatures designs.
+• Start thinking on some creatures designs.
