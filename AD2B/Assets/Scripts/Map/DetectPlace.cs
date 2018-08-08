@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnterPlace : MonoBehaviour
+public class DetectPlace : MonoBehaviour
 {
     public Text locationText;
 
@@ -14,6 +14,11 @@ public class EnterPlace : MonoBehaviour
             PlayerData.location = col.gameObject.name;
             locationText.text = "Current Location: " + col.gameObject.name;
             MovePlayer.isMoving = false;
+        }
+        if (col.gameObject.name == "Borders")
+        {
+            MovePlayer.isMoving = false;
+            UpdateClock.timeMultiplier = 1;
         }
     }
 }

@@ -32,17 +32,15 @@ public class MovePlayer : MonoBehaviour
 
     void MovePlayerToMouse()
     {
-        if (isMoving && player.transform.localPosition.y <= -132)
+        if (isMoving)
         {
             player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);
 
-            ClampPosition();
-
-            //            eventTargetTime -= Time.deltaTime;
-            //            if (eventTargetTime <= 0.0f)
-            //            {
-            //                getRandomEvent();
-            //            }
+            // eventTargetTime -= Time.deltaTime;
+            // if (eventTargetTime <= 0.0f)
+            // {
+            //     GetRandomEvent();
+            // }
         }
 
         if (player.transform.position == target)
@@ -52,16 +50,7 @@ public class MovePlayer : MonoBehaviour
         }
     }
 
-    void ClampPosition()
-    {
-        if (player.transform.localPosition.y > -132)
-        {
-            isMoving = false;
-            UpdateClock.timeMultiplier = 1;
-        }
-    }
-
-    void getRandomEvent()
+    void GetRandomEvent()
     {
         panelToBattle.SetActive(true);
         isMoving = false;
