@@ -44,7 +44,7 @@ public class MovePlayer : MonoBehaviour
 
     void ClampPosition()
     {
-        if (player.transform.localPosition.y >= -132)
+        if (player.transform.localPosition.y > -132)
         {
             isMoving = false;
             UpdateClock.timeMultiplier = 1;
