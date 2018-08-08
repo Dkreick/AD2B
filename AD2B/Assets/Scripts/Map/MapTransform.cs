@@ -6,6 +6,12 @@ public class MapTransform : MonoBehaviour
     public float maxScale;
     public float amountToScale;
     public bool isHovered;
+    private Transform map;
+
+    void Start()
+    {
+        map = gameObject.transform.GetChild(0);
+    }
 
     void Update()
     {
@@ -13,23 +19,24 @@ public class MapTransform : MonoBehaviour
         {
             if (Input.GetAxis("Mouse ScrollWheel") > 0f)
             {
-                Vector3 scale = transform.localScale;
+                Vector3 scale = map.localScale;
                 scale.x += amountToScale;
                 scale.y += amountToScale;
-                transform.localScale = scale;
+                map.localScale = scale;
             }
 
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
-                Vector3 scale = transform.localScale;
+                Vector3 scale = map.localScale;
                 scale.x -= amountToScale;
                 scale.y -= amountToScale;
-                transform.localScale = scale;
+                map.localScale = scale;
             }
-            transform.localScale = new Vector3(
-                Mathf.Clamp(transform.localScale.x, minScale, maxScale),
-                Mathf.Clamp(transform.localScale.y, minScale, maxScale),
-                Mathf.Clamp(transform.localScale.z, minScale, maxScale)
+
+            map.localScale = new Vector3(
+                Mathf.Clamp(map.localScale.x, minScale, maxScale),
+                Mathf.Clamp(map.localScale.y, minScale, maxScale),
+                Mathf.Clamp(map.localScale.z, minScale, maxScale)
             );
         }
     }
@@ -37,5 +44,14 @@ public class MapTransform : MonoBehaviour
     public void ChangeStatus(bool value)
     {
         isHovered = value;
+    }
+
+    public void DragMap()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            Vector3 mouseMovement = new Vector3(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"), 1);
+            map.position += mouseMovement;
+        }
     }
 }

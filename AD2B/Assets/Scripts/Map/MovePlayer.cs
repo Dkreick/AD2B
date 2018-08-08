@@ -11,7 +11,17 @@ public class MovePlayer : MonoBehaviour
     public float eventTargetTime;
     public GameObject panelToBattle;
 
-    void OnMouseDown()
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            OnRightClick();
+        }
+
+        MovePlayerToMouse();
+    }
+
+    void OnRightClick()
     {
         UpdateClock.timeMultiplier = 100;
         target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -20,7 +30,7 @@ public class MovePlayer : MonoBehaviour
         isMoving = true;
     }
 
-    void Update()
+    void MovePlayerToMouse()
     {
         if (isMoving && player.transform.localPosition.y <= -132)
         {
@@ -28,11 +38,11 @@ public class MovePlayer : MonoBehaviour
 
             ClampPosition();
 
-//            eventTargetTime -= Time.deltaTime;
-//            if (eventTargetTime <= 0.0f)
-//            {
-//                getRandomEvent();
-//            }
+            //            eventTargetTime -= Time.deltaTime;
+            //            if (eventTargetTime <= 0.0f)
+            //            {
+            //                getRandomEvent();
+            //            }
         }
 
         if (player.transform.position == target)
@@ -48,7 +58,7 @@ public class MovePlayer : MonoBehaviour
         {
             isMoving = false;
             UpdateClock.timeMultiplier = 1;
-        }    
+        }
     }
 
     void getRandomEvent()
