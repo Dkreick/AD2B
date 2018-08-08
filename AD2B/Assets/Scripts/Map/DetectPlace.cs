@@ -15,7 +15,11 @@ public class DetectPlace : MonoBehaviour
             locationText.text = "Current Location: " + col.gameObject.name;
             MovePlayer.isMoving = false;
         }
-        if (col.gameObject.name == "Borders")
+    }
+
+    void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Border")
         {
             MovePlayer.isMoving = false;
             UpdateClock.timeMultiplier = 1;
