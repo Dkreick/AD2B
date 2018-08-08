@@ -112,9 +112,10 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 #### What are the technical details?
 
 • Developed using: Unity3D 2018  
+• Main languague: C#
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity  
-• Platform(s): PC, WebGL  
-• Deploy on: [Itch.io](https://itch.io)  
+• Platform(s): Web
+• Deployed in: [Itch.io](https://itch.io)  
 • Controls: Mouse, keyboard for hotkeys  
 
 #### When will it launch?
@@ -156,7 +157,6 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 #### Player Actions:
 
-• Write this from the perspective of “you see this, then you click on the button then the screen does such-and-such” and so on. 
 • You navigate in the map to a certain location, in the middle of travel a popup can  show displaying some random event, depending on your actions it may will lead you to a fight for example, in that case you need to defeat the enemy in order to continue your journey.
 
 ## Gameplay Features
@@ -165,10 +165,10 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 
 ```_In just 30 seconds, the player can experience the creation of his character to the beginning of the journey. In middle game, 30 seconds of gameplay may take place in combat and involve many effects and outputs. Other scenario can be a simple navigation through the map and participate in differents events._```
 
-• Map full of places to explore  
-• Random events based on map location  
-• Combat turn with buffs and penalties  
-• Weapons, vehicles, cloth, drugs  
+• Map full of places to explore.  
+• Random events based on map location.  
+• Combat turn with buffs and penalties.  
+• Weapons, vehicles, cloth, drugs.  
 
 ### Combat with buffs and debuffs
 
@@ -207,7 +207,9 @@ In combat, both player and enemy will have differents attributes
 
 #### Vehicles
 
-
+• Yamaha Raptor 700, Honda Titan CG150  
+• Renault 12, VW Gol, Ford Falcon, Chevrolet Classic  
+• Unimog 416, Ford F100
 
 ### Random events
 
