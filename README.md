@@ -43,7 +43,7 @@ Go to the folder [Web Build](../Web%20build), download it and open [index.html](
 • [30 Seconds Of Gameplay](#30-seconds-of-gameplay)  
 • [Combat with buffs and debuffs](#combat-with-buffs-and-debuffs)  
 • [Map full of places to explore](#map-full-of-places-to-explore)  
-• [Guns, food, drugs, vehicles and more...](#guns-food-drugs-vehicles-and-more) 
+• [Guns, food, drugs, vehicles and more...](#guns-food-aid-and-vehicles) 
 
 • [Random events](#random-events)
      
@@ -184,9 +184,30 @@ In combat, both player and enemy will have differents attributes
      <img src="Documents/Developer%20notes/GDD%20Images/SketchTravel.png"/>
 </p>
 
-### Guns, food, drugs, vehicles and more...
+### Guns, food, aid and vehicles
 
 # IMAGE PLACEHOLDER DICTIONARY ITEMS
+
+#### Guns
+
+• Bersa .22, Bersa 9mm, Browning GP35, Glock G17, Ballester Molina 1125, Taurus Mod97  
+• FMK3, Colt Mod635, MP5SD, Halcon M1943  
+• Remington 870, Bataan 71, Sawn-off, Hatsan Escort  
+• FN FAL, M16, Beretta ARX-160, FARA 83, Steyr  
+• Remington 700, Norinco JW-14, Remington 597, Steyr SSG69, M24SWS  
+
+#### Food
+
+• MRE, Can of soda, Can of tuna, Bottle of water  
+
+#### Aid
+
+• Bandages, Painkillers, Medkit  
+• Morphine, Amphetamine, Cocaine, Epinephrine
+
+#### Vehicles
+
+
 
 ### Random events
 
