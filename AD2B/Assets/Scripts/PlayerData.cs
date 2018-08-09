@@ -13,11 +13,14 @@ public class PlayerData : MonoBehaviour
     public static string location;
     public static float travelSpeed;
 
-    public static int health;
-    public static int stamina;
+    public static int maxHealth;
+    public static int maxStamina;
     public static int adrenaline;
+    public static float attack;
+    public static float defense;
 
     public static float temperature;
+    public static int needsRate;
     public static int hunger;
     public static int thirst;
     public static int sleep;
@@ -38,10 +41,29 @@ public class PlayerData : MonoBehaviour
         sleep = 100;
         maxWeight = 10;
 
-        health = 100;
-        stamina = 100;
+        maxHealth = 100;
+        maxStamina = 100;
         travelSpeed = 10;
         money = 50;
         location = "BuenosAires";
+    }
+
+    public void CreateClass()
+    {
+        // switch (charClass)
+        // {
+        //     case "Conscript":
+
+        //         break;
+        //     case "Medic":
+
+        //         break;
+        //     case "Mechanic":
+
+        //         break;
+        //     case "Scout":
+
+        //         break;
+        // }
     }
 }

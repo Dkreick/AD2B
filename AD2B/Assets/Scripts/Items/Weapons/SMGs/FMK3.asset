@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
+  m_Name: FMK3
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 0}
+  id: FMK3
+  type: SMG
+  description: Argentinean 9mm SMG, pretty extended and relatively easy to find
+  minDamage: 5
+  maxDamage: 8
+  accuracy: 40
+  staminaCost: 0.12
+  capacity: 30
+  weight: 3.4
+  ammoUsed: 9mm
+  image: {fileID: 21300036, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}

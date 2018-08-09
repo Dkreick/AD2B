@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
+  m_Name: Remington 597
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 0}
+  id: Remington 597
+  type: SniperRifle
+  description: If you prefer polymer rather than wood, find me.
+  minDamage: 11
+  maxDamage: 19
+  accuracy: 80
+  staminaCost: 0.165
+  capacity: 10
+  weight: 2.5
+  ammoUsed: .22LR
+  image: {fileID: 21300062, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}

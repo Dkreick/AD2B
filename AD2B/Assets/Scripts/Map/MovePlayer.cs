@@ -36,11 +36,11 @@ public class MovePlayer : MonoBehaviour
         {
             player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);
 
-            // eventTargetTime -= Time.deltaTime;
-            // if (eventTargetTime <= 0.0f)
-            // {
-            //     GetRandomEvent();
-            // }
+            eventTargetTime -= Time.deltaTime;
+            if (eventTargetTime <= 0.0f)
+            {
+                GetRandomEvent();
+            }
         }
 
         if (player.transform.position == target)
