@@ -16,7 +16,7 @@ public class Weapon : ScriptableObject
 	[SerializeField] int capacity;
 	[SerializeField] float weight;
 	[SerializeField] string ammoUsed;
-	[SerializeField] Sprite image;
+	public Sprite image;
 
 	public GameObject GetWeaponPrefab()
 	{

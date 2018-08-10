@@ -4,35 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class CombatManager : MonoBehaviour
-{
-    public GameObject player;
-    public GameObject enemy;
+{    
     public float sliderValueSpeed;
-
-    public Slider playerHealthBar;
-    public Slider enemyHealthBar;
+    
+    public Player player;
+    public Enemy enemy;
     public GameObject panelVictory;
     public GameObject panelDefeat;
-
-    public float playerDefense;
-    public float enemyDefense;
-
-    void Start()
-    {
-        playerDefense = 1;
-        enemyDefense = 1;
-    }
 
     public void Cover(string author)
     {
         if (author == "Player")
         {
-            playerDefense = 0.5f;
             MakeNextTurn("Enemy");
         }
         if (author == "Enemy")
         {
-            enemyDefense = 0.5f;
             MakeNextTurn("Player");
         }
     }
@@ -44,10 +31,10 @@ public class CombatManager : MonoBehaviour
 
     public void Attack()
     {
-        float totalDamage = 10 * enemyDefense;
-        StartCoroutine(ChangeSliderValue(enemyHealthBar, totalDamage, "Enemy"));
-        enemyDefense = 1;
-        if (enemyHealthBar.value <= 0)
+        float totalDamage = player.damage - enemy.defense;
+        StartCoroutine(ChangeSliderValue(enemy.healthBar, totalDamage, "Enemy"));
+        enemy.defense = 1;
+        if (enemy.healthBar.value <= 0)
         {
             panelVictory.SetActive(true);
         }
@@ -61,18 +48,17 @@ public class CombatManager : MonoBehaviour
         }
         else
         {
-            if (enemyHealthBar.value * 100 > 50)
+            if (enemy.healthBar.value * 100 > 50)
             {
-                float totalDamage = 10 * playerDefense;
-                StartCoroutine(ChangeSliderValue(playerHealthBar, totalDamage, "Player"));
-                playerDefense = 1;
-                if (playerHealthBar.value <= 0)
+                float totalDamage = enemy.damage - player.defense;
+                StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
+                if (player.healthBar.value <= 0)
                 {
                     panelDefeat.SetActive(true);
                 }
             }
 
-            if (enemyHealthBar.value * 100 < 25)
+            if (enemy.healthBar.value * 100 < 25)
             {
                 Cover("Enemy");
             }
@@ -82,10 +68,9 @@ public class CombatManager : MonoBehaviour
 
                 if (chance == 1)
                 {
-                    float totalDamage = 10 * playerDefense;
-                    StartCoroutine(ChangeSliderValue(playerHealthBar, totalDamage, "Player"));
-                    playerDefense = 1;
-                    if (playerHealthBar.value <= 0)
+                    float totalDamage = 10 - player.defense;
+                    StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
+                    if (player.healthBar.value <= 0)
                     {
                         panelDefeat.SetActive(true);
                     }

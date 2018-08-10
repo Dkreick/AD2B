@@ -8,4 +8,14 @@ public class Character : MonoBehaviour
     public Slider healthBar;
     public Slider staminaBar;
     public Slider adrenalineBar;
+
+    private float health;
+    private float stamina;
+    private float adrenaline;
+
+    public float damage;
+    public float defense;
+    
+	protected Weapon weapon;
+    protected Transform weaponInHand;
 }

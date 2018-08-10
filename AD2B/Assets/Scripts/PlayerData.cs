@@ -15,9 +15,6 @@ public class PlayerData : MonoBehaviour
 
     public static int maxHealth;
     public static int maxStamina;
-    public static int adrenaline;
-    public static float attack;
-    public static float defense;
 
     public static float temperature;
     public static int needsRate;
@@ -50,20 +47,20 @@ public class PlayerData : MonoBehaviour
 
     public void CreateClass()
     {
-        // switch (charClass)
-        // {
-        //     case "Conscript":
+        switch (charClass)
+        {
+            case "Conscript":
 
-        //         break;
-        //     case "Medic":
+                break;
+            case "Medic":
 
-        //         break;
-        //     case "Mechanic":
+                break;
+            case "Mechanic":
 
-        //         break;
-        //     case "Scout":
+                break;
+            case "Scout":
 
-        //         break;
-        // }
+                break;
+        }
     }
 }
