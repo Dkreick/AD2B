@@ -9,11 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51c173cfe3b5cce4ba36257679050ffe, type: 3}
-  m_Name: New Consumable 9
+  m_Name: Epinephrine
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 0}
-  id: 
-  type: 
+  id: Epinephrine
+  type: Drug
   description: 
   weight: 0
   image: {fileID: 0}
