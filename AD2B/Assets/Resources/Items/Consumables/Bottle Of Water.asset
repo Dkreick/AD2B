@@ -8,15 +8,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55315b55522e874da7dff0b354c6762, type: 3}
-  m_Name: Ford F100
+  m_Script: {fileID: 11500000, guid: 51c173cfe3b5cce4ba36257679050ffe, type: 3}
+  m_Name: New Consumable 3
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
-  id: Ford F100
+  itemPrefab: {fileID: 0}
+  id: 
+  type: 
   description: 
-  speed: 0
-  durability: 0
-  range: 0
-  trunkCapacity: 0
-  fightRisk: 0
+  weight: 0
   image: {fileID: 0}
+  hungerRestored: 0
+  thirstRestored: 0
+  sleepRestored: 0
+  healthRestored: 0
+  staminaRestored: 0
+  adrenalineRestored: 0

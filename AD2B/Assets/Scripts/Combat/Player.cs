@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Player : Character
 {
-
 	void Start()
 	{
 		weaponInHand = this.transform.GetChild(0);

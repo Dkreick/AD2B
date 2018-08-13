@@ -11,7 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f55315b55522e874da7dff0b354c6762, type: 3}
   m_Name: Unimog 416
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
+  itemPrefab: {fileID: 0}
+  id: Unimog 416
+  type: 
+  description: 
+  weight: 0
+  image: {fileID: 21300178, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  vehiclePrefab: {fileID: 0}
   id: Unimog 416
   description: 
   speed: 78
