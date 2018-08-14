@@ -4,81 +4,64 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class CombatManager : MonoBehaviour
-{    
+{
     public float sliderValueSpeed;
-    
+
     public Player player;
     public Enemy enemy;
     public GameObject panelVictory;
     public GameObject panelDefeat;
 
-    public void Cover(string author)
-    {
-        if (author == "Player")
-        {
-            MakeNextTurn("Enemy");
-        }
-        if (author == "Enemy")
-        {
-            MakeNextTurn("Player");
-        }
-    }
-
-    public void Inventory()
+    public void Cover()
     {
 
     }
-
+    
     public void Attack()
     {
-        float totalDamage = player.damage - enemy.defense;
+        float totalDamage = player.CalculateDamage() - enemy.defense;
         StartCoroutine(ChangeSliderValue(enemy.healthBar, totalDamage, "Enemy"));
-        enemy.defense = 1;
+        player.GetComponent<AudioSource>().Play();
+
+        transform.GetChild(2).GetComponent<Button>().interactable = false;
         if (enemy.healthBar.value <= 0)
         {
             panelVictory.SetActive(true);
         }
     }
 
-    void MakeNextTurn(string author)
+    void ManageEnemyTurn()
     {
-        if (author == "Player")
+        if (enemy.healthBar.value * 100 > 50)
         {
-            return;
+            float totalDamage = enemy.damage - player.defense;
+            StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
+            if (player.healthBar.value <= 0)
+            {
+                panelDefeat.SetActive(true);
+            }
+        }
+
+        if (enemy.healthBar.value * 100 < 25)
+        {
+            //Cover("Enemy");
         }
         else
         {
-            if (enemy.healthBar.value * 100 > 50)
+            int chance = Random.Range(0, 1);
+
+            if (chance == 1)
             {
-                float totalDamage = enemy.damage - player.defense;
+                float totalDamage = 10 - player.defense;
                 StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
                 if (player.healthBar.value <= 0)
                 {
                     panelDefeat.SetActive(true);
                 }
             }
-
-            if (enemy.healthBar.value * 100 < 25)
-            {
-                Cover("Enemy");
-            }
             else
             {
-                int chance = Random.Range(0, 1);
-
-                if (chance == 1)
-                {
-                    float totalDamage = 10 - player.defense;
-                    StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
-                    if (player.healthBar.value <= 0)
-                    {
-                        panelDefeat.SetActive(true);
-                    }
-                }
-                else
-                {
-                    Cover("Enemy");
-                }
+                //Cover("Enemy");
             }
         }
     }
@@ -92,6 +75,13 @@ public class CombatManager : MonoBehaviour
             yield return null;
         }
 
-        MakeNextTurn(target);
+        if (target == "Player")
+        {
+            transform.GetChild(2).GetComponent<Button>().interactable = true;
+        }
+        else
+        {
+            ManageEnemyTurn();
+        }
     }
 }

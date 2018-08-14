@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Steyr AUG
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Steyr AUG
   type: Assault Rifle
   description: Special forces weapon, good accuracy but it's not very common to find.
+  weight: 3.6
+  image: {fileID: 21300056, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 15
   maxDamage: 19
   accuracy: 65
   staminaCost: 0.195
   capacity: 30
-  weight: 3.6
   ammoUsed: 5.56mm
-  image: {fileID: 21300056, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 7a76b69f9db29224dbd4a5fe7c34a894, type: 3}

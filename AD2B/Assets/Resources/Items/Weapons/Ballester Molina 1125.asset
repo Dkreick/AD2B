@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Ballester Molina 1125
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Ballester Molina 1125
   type: Pistol
   description: It has more than 100 years in action. Uses .45ACP ammo
+  weight: 1.1
+  image: {fileID: 21300030, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 9
   maxDamage: 11
   accuracy: 60
   staminaCost: 0.095
   capacity: 7
-  weight: 1.1
   ammoUsed: .45ACP
-  image: {fileID: 21300030, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 21c241d05122f5f418762c570189bfe7, type: 3}

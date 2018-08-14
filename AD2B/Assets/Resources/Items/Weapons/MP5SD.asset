@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: MP5SD
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: MP5SD
   type: SMG
   description: Mostly used by all argentinean special forces. Uses 9mm ammo to work.
+  weight: 3.1
+  image: {fileID: 21300040, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 6
   maxDamage: 9
   accuracy: 40
   staminaCost: 0.11
   capacity: 30
-  weight: 3.1
   ammoUsed: 9mm
-  image: {fileID: 21300040, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 956ba8e668f1ba9488a28de7cf17e02c, type: 3}

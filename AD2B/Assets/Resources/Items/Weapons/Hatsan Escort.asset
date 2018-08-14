@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Hatsan Escort
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Hatsan Escort
   type: Shotgun
   description: Hunting shotgun, relies in his accuracy but lack on damage.
+  weight: 3.6
+  image: {fileID: 21300050, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 22
   maxDamage: 28
   accuracy: 40
   staminaCost: 0.275
   capacity: 8
-  weight: 3.6
   ammoUsed: 12Gauge
-  image: {fileID: 21300050, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 7142a8983bfdfe64a92d54992de0edc8, type: 3}

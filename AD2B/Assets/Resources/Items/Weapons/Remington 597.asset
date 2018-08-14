@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Remington 597
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Remington 597
   type: SniperRifle
   description: If you prefer polymer rather than wood, find me.
+  weight: 2.5
+  image: {fileID: 21300062, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 11
   maxDamage: 19
   accuracy: 80
   staminaCost: 0.165
   capacity: 10
-  weight: 2.5
   ammoUsed: .22LR
-  image: {fileID: 21300062, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: c48a758553920c448a7065835d546c54, type: 3}

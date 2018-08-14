@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: M24SWS
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: M24SWS
   type: SniperRifle
   description: Most accurate weapon in the country, even without that bipod.
+  weight: 5.5
+  image: {fileID: 21300066, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 25
   maxDamage: 30
   accuracy: 95
   staminaCost: 0.25
   capacity: 10
-  weight: 5.5
   ammoUsed: 7.62mm
-  image: {fileID: 21300066, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: c48a758553920c448a7065835d546c54, type: 3}

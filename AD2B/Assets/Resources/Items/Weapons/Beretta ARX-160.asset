@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Beretta ARX-160
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Beretta ARX-160
   type: Assault Rifle
   description: Italian modern rifle.
+  weight: 3.1
+  image: {fileID: 21300060, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 14
   maxDamage: 18
   accuracy: 70
   staminaCost: 0.19
   capacity: 30
-  weight: 3.1
   ammoUsed: 5.56mm
-  image: {fileID: 21300060, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 7a76b69f9db29224dbd4a5fe7c34a894, type: 3}

@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Browning GP35
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Browning GP35
   type: Pistol
   description: The standard army weapon, uses 7mm for work.
+  weight: 0.8
+  image: {fileID: 21300032, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 6
   maxDamage: 10
   accuracy: 65
   staminaCost: 0.085
   capacity: 13
-  weight: 0.8
   ammoUsed: 9mm
-  image: {fileID: 21300032, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 21c241d05122f5f418762c570189bfe7, type: 3}

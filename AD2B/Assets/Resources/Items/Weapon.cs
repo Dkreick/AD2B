@@ -5,10 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = ("Item/Weapon"))]
 public class Weapon : Item
 {
-	[SerializeField] int minDamage;
-	[SerializeField] int maxDamage;
+	public int minDamage;
+	public int maxDamage;
 	[SerializeField] int accuracy;
 	[SerializeField] float staminaCost;
 	[SerializeField] int capacity;
 	[SerializeField] string ammoUsed;
+	public AudioClip shot;
 }

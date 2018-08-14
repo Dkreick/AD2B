@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Bersa 9mm
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Bersa 9mm
   type: Pistol
   description: The standard police weapon, 9mm of duty.
+  weight: 0.9
+  image: {fileID: 21300024, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 7
   maxDamage: 10
   accuracy: 70
   staminaCost: 0.075
   capacity: 10
-  weight: 0.9
   ammoUsed: 9mm
-  image: {fileID: 21300024, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 21c241d05122f5f418762c570189bfe7, type: 3}

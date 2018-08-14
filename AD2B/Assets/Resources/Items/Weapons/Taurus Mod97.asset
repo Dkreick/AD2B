@@ -11,16 +11,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Taurus Mod97
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 0}
   id: Taurus Mod97
   type: Pistol
   description: A nice brazilian revolver, remember to put your thumb behind the drum.
     Uses 9mm ammo.
+  weight: 0.9
+  image: {fileID: 21300034, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 9
   maxDamage: 10
   accuracy: 80
   staminaCost: 0.055
   capacity: 6
-  weight: 0.9
   ammoUsed: 9mm
-  image: {fileID: 21300034, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  shot: {fileID: 8300000, guid: 21c241d05122f5f418762c570189bfe7, type: 3}
