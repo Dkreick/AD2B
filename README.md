@@ -211,6 +211,21 @@ In combat, both player and enemy will have differents attributes
 • Renault 12, VW Gol, Ford Falcon, Chevrolet Classic  
 • Unimog 416, Ford F100
 
+##### Specs Table
+
+| Vehicle Name      | Type  | Max speed     | Durability | Range | Trunk | Fight Risk |
+|-------------------|:-----:|:-------------:|:----------:|:-----:|:-----:|:----------:|
+| Chevrolet Classic | Car   | 170 Km/h      |    6       |  490  |  90   |  7         |
+| Ford Falcon       | Car   | 160 Km/h      |    9       |  520  |  100  |  7.5       |
+| Ford F100         | Truck | 110 Km/h      |    9       |  400  |  350  |  6         |
+| Honda CG150       | Bike  | 100 Km/h      |    4       |  350  |  10   |  4         |
+| Renault 12        | Car   | 130 Km/h      |    8       |  450  |  90   |  10        |
+| Unimog 416        | Truck | 80 Km/h       |    10      |  477  |  300  |  5         |
+| VW Gol            | Car   | 180 Km/h      |    7       |  900  |  75   |  8         |
+| Yamaha Raptor     | Quad  | 120 Km/h      |    5       |  250  |  10   |  20        |
+
+*Some specs are not based on reality, they are modified to have a better experience.
+
 ### Random events
 
 There will be different events when the player is travelling, here is a short list of examples:
