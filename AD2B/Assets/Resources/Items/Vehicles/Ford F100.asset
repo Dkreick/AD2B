@@ -11,18 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f55315b55522e874da7dff0b354c6762, type: 3}
   m_Name: Ford F100
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 0}
   id: Ford F100
-  type: 
+  type: Truck
   description: 
   weight: 0
   image: {fileID: 0}
-  vehiclePrefab: {fileID: 0}
-  id: Ford F100
-  description: 
-  speed: 0
-  durability: 0
-  range: 0
-  trunkCapacity: 0
-  fightRisk: 0
-  image: {fileID: 0}
+  speed: 110
+  durability: 9
+  range: 400
+  trunkCapacity: 350
+  fightRisk: 6

@@ -11,18 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f55315b55522e874da7dff0b354c6762, type: 3}
   m_Name: Yamaha Raptor 700
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 0}
   id: Yamaha Raptor 700
-  type: 
+  type: Quad
   description: 
   weight: 0
   image: {fileID: 0}
-  vehiclePrefab: {fileID: 0}
-  id: Yamaha Raptor 700
-  description: 
   speed: 120
   durability: 5
   range: 250
   trunkCapacity: 10
   fightRisk: 20
-  image: {fileID: 0}

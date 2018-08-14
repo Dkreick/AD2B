@@ -11,18 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f55315b55522e874da7dff0b354c6762, type: 3}
   m_Name: VW Gol
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 0}
   id: VW Gol
-  type: 
+  type: Car
   description: 
   weight: 0
   image: {fileID: 21300074, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
-  vehiclePrefab: {fileID: 0}
-  id: VW Gol
-  description: 
   speed: 180
   durability: 7
   range: 900
   trunkCapacity: 75
   fightRisk: 8
-  image: {fileID: 21300074, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
