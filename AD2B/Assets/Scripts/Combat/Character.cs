@@ -12,8 +12,6 @@ public class Character : MonoBehaviour
     private float health;
     private float stamina;
     private float adrenaline;
-
-    public float damage;
     public float defense;
     
 	protected Weapon weapon;

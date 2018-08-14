@@ -16,7 +16,7 @@ public class CombatManager : MonoBehaviour
     {
 
     }
-    
+
     public void Attack()
     {
         float totalDamage = player.CalculateDamage() - enemy.defense;
@@ -34,7 +34,7 @@ public class CombatManager : MonoBehaviour
     {
         if (enemy.healthBar.value * 100 > 50)
         {
-            float totalDamage = enemy.damage - player.defense;
+            float totalDamage = enemy.CalculateDamage() - player.defense;
             StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
             if (player.healthBar.value <= 0)
             {
