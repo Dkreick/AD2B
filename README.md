@@ -196,6 +196,35 @@ In combat, both player and enemy will have differents attributes
 • FN FAL, M16, Beretta ARX-160, FARA 83, Steyr  
 • Remington 700, Norinco JW-14, Remington 597, Steyr SSG69, M24SWS  
 
+##### Specs Table
+
+| Weapon Name            | Type            | Damage Min/Max | Accuracy | Stamina Cost | Weight | Capacity | Ammo     |
+|------------------------|:---------------:|:--------------:|:--------:|:------------:|:------:|:--------:|:--------:|
+| Ballester Molina 1125  | Pistol          | 9/11           |  60      |  0.095       |  1.1   |  7       | .45ACP   |
+| Bataan 71              | Shotgun         | 24/32          |  35      |  0.3         |  2.7   |  5       | 12 Gauge |
+| Beretta ARX-160        | Assault Rifle   | 14/18          |  70      |  0.19        |  3.1   |  30      | 5.56mm   |
+| Bersa .22              | Pistol          | 4/7            |  65      |  0.04        |  0.6   |  10      | .22LR    |
+| Bersa 9mm              | Pistol          | 7/10           |  70      |  0.075       |  0.9   |  10      | 9mm      |
+| Browning GP35          | Pistol          | 6/10           |  65      |  0.085       |  0.8   |  13      | 9mm      |
+| Colt Mod635            | SMG             | 4/9            |  45      |  0.115       |  2.6   |  30      | 9mm      |
+| FARA 83                | Assault Rifle   | 12/16          |  55      |  0.215       |  3.9   |  30      | 5.56mm   |
+| FMK3                   | SMG             | 5/8            |  40      |  0.12        |  3.4   |  30      | 9mm      |
+| FN FAL                 | Assault Rifle   | 17/21          |  60      |  0.25        |  4.3   |  20      | 7.62mm   |
+| Glock G17              | Pistol          | 7/9            |  75      |  0.06        |  0.6   |  17      | 9mm      |
+| Halcon M1943           | SMG             | 8/11           |  35      |  0.14        |  3.5   |  30      | .45ACP   |
+| Hatsan Escort          | Shotgun         | 22/28          |  40      |  0.275       |  3.6   |  8       | 12 Gauge |
+| M16                    | Assault Rifle   | 13/17          |  60      |  0.2         |  4     |  30      | 5.56mm   |
+| M24SWS                 | Sniper Rifle    | 25/30          |  95      |  0.25        |  5.5   |  10      | 7.62mm   |
+| MP5SD                  | SMG             | 6/9            |  40      |  0.11        |  3.1   |  30      | 9mm      |
+| Norinco JW14           | Sniper Rifle    | 12/17          |  70      |  0.15        |  2.8   |  10      | .22LR    |
+| Remington 597          | Sniper Rifle    | 11/19          |  80      |  0.165       |  2.5   |  10      | .22LR    |
+| Remington 700          | Sniper Rifle    | 23/29          |  90      |  0.225       |  4.1   |  5       | 7.62mm   |
+| Remington 870          | Shotgun         | 25/31          |  45      |  0.285       |  3.2   |  8       | 12 Gauge |
+| Sawn-Off               | Shotgun         | 28/37          |  30      |  0.31        |  1.7   |  2       | 12 Gauge |
+| Steyr AUG              | Assault Rifle   | 15/19          |  65      |  0.195       |  3.6   |  30      | 5.56mm   |
+| SteyrSSG69             | Assault Rifle   | 24/32          |  80      |  0.24        |  4     |  10      | 7.62mm   |
+| Taurus Mod97           | Pistol          | 9/10           |  80      |  0.055       |  0.9   |  6       | 9mm      |
+
 #### Food
 
 • MRE, Can of soda, Can of tuna, Bottle of water  
@@ -213,16 +242,16 @@ In combat, both player and enemy will have differents attributes
 
 ##### Specs Table
 
-| Vehicle Name      | Type  | Max speed     | Durability | Range | Trunk | Fight Risk |
-|-------------------|:-----:|:-------------:|:----------:|:-----:|:-----:|:----------:|
-| Chevrolet Classic | Car   | 170 Km/h      |    6       |  490  |  90   |  7         |
-| Ford Falcon       | Car   | 160 Km/h      |    9       |  520  |  100  |  7.5       |
-| Ford F100         | Truck | 110 Km/h      |    9       |  400  |  350  |  6         |
-| Honda CG150       | Bike  | 100 Km/h      |    4       |  350  |  10   |  4         |
-| Renault 12        | Car   | 130 Km/h      |    8       |  450  |  90   |  10        |
-| Unimog 416        | Truck | 80 Km/h       |    10      |  477  |  300  |  5         |
-| VW Gol            | Car   | 180 Km/h      |    7       |  900  |  75   |  8         |
-| Yamaha Raptor     | Quad  | 120 Km/h      |    5       |  250  |  10   |  20        |
+| Vehicle Name      | Type  | Max speed | Durability | Range | Trunk | Fight Risk |
+|-------------------|:-----:|:---------:|:----------:|:-----:|:-----:|:----------:|
+| Chevrolet Classic | Car   | 170 Km/h  |    6       |  490  |  90   |  7         |
+| Ford Falcon       | Car   | 160 Km/h  |    9       |  520  |  100  |  7.5       |
+| Ford F100         | Truck | 110 Km/h  |    9       |  400  |  350  |  6         |
+| Honda CG150       | Bike  | 100 Km/h  |    4       |  350  |  10   |  4         |
+| Renault 12        | Car   | 130 Km/h  |    8       |  450  |  90   |  10        |
+| Unimog 416        | Truck | 80 Km/h   |    10      |  477  |  300  |  5         |
+| VW Gol            | Car   | 180 Km/h  |    7       |  900  |  75   |  8         |
+| Yamaha Raptor     | Quad  | 120 Km/h  |    5       |  250  |  10   |  20        |
 
 *Some specs are not based on reality, they are modified to have a better experience.
 
