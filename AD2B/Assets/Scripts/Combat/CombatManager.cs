@@ -22,7 +22,7 @@ public class CombatManager : MonoBehaviour
         float totalDamage = player.CalculateDamage() - enemy.defense;
         StartCoroutine(ChangeSliderValue(enemy.healthBar, totalDamage, "Enemy"));
         player.GetComponent<AudioSource>().Play();
-
+        ConsoleManager.AddText(enemy.id + " was wounded for " + totalDamage + "\n");
         transform.GetChild(2).GetComponent<Button>().interactable = false;
         if (enemy.healthBar.value <= 0)
         {
@@ -36,6 +36,8 @@ public class CombatManager : MonoBehaviour
         {
             float totalDamage = enemy.CalculateDamage() - player.defense;
             StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
+            enemy.GetComponent<AudioSource>().Play();
+            ConsoleManager.AddText(player.id + " was wounded for " + totalDamage + "\n");
             if (player.healthBar.value <= 0)
             {
                 panelDefeat.SetActive(true);

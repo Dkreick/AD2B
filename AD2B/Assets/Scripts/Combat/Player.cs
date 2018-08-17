@@ -10,6 +10,7 @@ public class Player : Character
 
 	void Start()
 	{
+		id = "Player";
 		weaponInHand = this.transform.GetChild(0);
 		weapon = Resources.Load<Weapon>("Items/Weapons/M16");
 		weaponInHand.GetComponent<Image>().sprite = weapon.image;

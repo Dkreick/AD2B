@@ -7,8 +7,9 @@ public class Enemy : Character
 {
     void Start()
     {
+        id = "Enemy";
+        
         Object[] weapons;
-
         weaponInHand = this.transform.GetChild(0);
         weapons = Resources.LoadAll("Items/Weapons", typeof(Weapon));
         weapon = (Weapon)weapons[Random.Range(0, weapons.Length)];

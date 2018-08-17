@@ -9,9 +9,10 @@ public class Character : MonoBehaviour
     public Slider staminaBar;
     public Slider adrenalineBar;
 
-    private float health;
-    private float stamina;
-    private float adrenaline;
+    public string id;
+    public float health;
+    public float stamina;
+    public float adrenaline;
     public float defense;
     
 	protected Weapon weapon;
