@@ -15,7 +15,7 @@ MonoBehaviour:
   type: Car
   description: 
   weight: 0
-  image: {fileID: 0}
+  image: {fileID: 21300198, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   speed: 170
   durability: 6
   range: 490

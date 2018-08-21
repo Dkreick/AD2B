@@ -99,6 +99,11 @@ TextureImporter:
     21300184: vehicleFalcon
     21300186: effectCover
     21300188: skillConscript2
+    21300190: itemCocaine
+    21300192: itemAmphetamine
+    21300194: itemEpipen
+    21300196: vehicleF100
+    21300198: vehicleClassic
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -776,7 +781,7 @@ TextureImporter:
       name: itemSawnOff
       rect:
         serializedVersion: 2
-        x: 703
+        x: 704
         y: 890
         width: 64
         height: 64
@@ -1042,7 +1047,7 @@ TextureImporter:
       name: itemMorphine
       rect:
         serializedVersion: 2
-        x: 448
+        x: 1344
         y: 826
         width: 64
         height: 64
@@ -1056,7 +1061,7 @@ TextureImporter:
       name: itemCarWheel
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 826
         width: 64
         height: 64
@@ -1070,7 +1075,7 @@ TextureImporter:
       name: itemFuel
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 826
         width: 64
         height: 64
@@ -1084,7 +1089,7 @@ TextureImporter:
       name: itemBrokenBone
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 826
         width: 64
         height: 64
@@ -1098,7 +1103,7 @@ TextureImporter:
       name: itemBleeding
       rect:
         serializedVersion: 2
-        x: 704
+        x: 640
         y: 826
         width: 64
         height: 64
@@ -1126,7 +1131,7 @@ TextureImporter:
       name: itemHungry
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 826
         width: 64
         height: 64
@@ -1140,7 +1145,7 @@ TextureImporter:
       name: itemThirsty
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 826
         width: 64
         height: 64
@@ -1154,7 +1159,7 @@ TextureImporter:
       name: itemTired
       rect:
         serializedVersion: 2
-        x: 896
+        x: 832
         y: 826
         width: 64
         height: 64
@@ -1168,7 +1173,7 @@ TextureImporter:
       name: itemCold
       rect:
         serializedVersion: 2
-        x: 960
+        x: 896
         y: 826
         width: 64
         height: 64
@@ -1224,7 +1229,7 @@ TextureImporter:
       name: item22lr
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 960
         y: 826
         width: 64
         height: 64
@@ -1238,7 +1243,7 @@ TextureImporter:
       name: item9mm
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1024
         y: 826
         width: 64
         height: 64
@@ -1252,7 +1257,7 @@ TextureImporter:
       name: item45acp
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1088
         y: 826
         width: 64
         height: 64
@@ -1266,7 +1271,7 @@ TextureImporter:
       name: item12gauge
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 1152
         y: 826
         width: 64
         height: 64
@@ -1280,7 +1285,7 @@ TextureImporter:
       name: item556
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 1216
         y: 826
         width: 64
         height: 64
@@ -1294,7 +1299,7 @@ TextureImporter:
       name: item762
       rect:
         serializedVersion: 2
-        x: 1343
+        x: 1280
         y: 826
         width: 64
         height: 64
@@ -1384,6 +1389,76 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemCocaine
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemAmphetamine
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: itemEpipen
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 826
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vehicleF100
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 129
+        width: 547
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vehicleClassic
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 407
+        width: 402
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
