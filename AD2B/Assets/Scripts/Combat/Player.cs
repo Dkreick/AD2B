@@ -17,9 +17,4 @@ public class Player : Character
 		primaryHolster.GetComponent<Image>().sprite = weapon.image;
 		GetComponent<AudioSource>().clip = weapon.shot;
 	}
-
-	public float CalculateDamage()
-	{
-		return Random.Range(weapon.minDamage, weapon.maxDamage);
-	}
 }

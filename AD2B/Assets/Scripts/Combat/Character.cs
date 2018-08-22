@@ -14,7 +14,19 @@ public class Character : MonoBehaviour
     public float stamina;
     public float adrenaline;
     public float defense;
-    
-	protected Weapon weapon;
+
+    protected Weapon weapon;
     protected Transform weaponInHand;
+
+    public float CalculateDamage()
+    {
+        if (Random.Range(0, 1) <= weapon.accuracy)
+        {
+            return Random.Range(weapon.minDamage, weapon.maxDamage);
+        }
+        else
+        {
+            return 0;
+        }
+    }
 }

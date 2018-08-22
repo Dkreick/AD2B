@@ -19,7 +19,7 @@ public class CombatManager : MonoBehaviour
 
     public void Attack()
     {
-        float totalDamage = player.CalculateDamage() - enemy.defense;
+        float totalDamage = player.CalculateDamage() * enemy.defense;
         StartCoroutine(ChangeSliderValue(enemy.healthBar, totalDamage, "Enemy"));
         player.GetComponent<AudioSource>().Play();
         ConsoleManager.AddText(enemy.id + " was wounded for " + totalDamage + "\n");
@@ -34,7 +34,7 @@ public class CombatManager : MonoBehaviour
     {
         if (enemy.healthBar.value * 100 > 50)
         {
-            float totalDamage = enemy.CalculateDamage() - player.defense;
+            float totalDamage = enemy.CalculateDamage() * player.defense;
             StartCoroutine(ChangeSliderValue(player.healthBar, totalDamage, "Player"));
             enemy.GetComponent<AudioSource>().Play();
             ConsoleManager.AddText(player.id + " was wounded for " + totalDamage + "\n");

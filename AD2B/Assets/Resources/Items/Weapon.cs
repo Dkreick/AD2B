@@ -7,7 +7,7 @@ public class Weapon : Item
 {
 	public int minDamage;
 	public int maxDamage;
-	[SerializeField] int accuracy;
+	public int accuracy;
 	[SerializeField] float staminaCost;
 	[SerializeField] int capacity;
 	[SerializeField] string ammoUsed;
