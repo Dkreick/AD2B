@@ -284,32 +284,34 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 1994 - The U.S. Food and Drug Administration approves GMO tomato for sale. The delayed-ripening tomato has a longer shelf life than conventional tomatoes.  
 1998 - A "Super El Niño" makes this an exceptionally warm year, equaled in later years but not clearly exceeded until 2014.  
 1999 - Over 100 million acres worldwide are planted with genetically engineered seeds. The marketplace begins embracing GMO technology at an alarming rate.  
+
+**At this point, history diverges into a new branch**  
+
+**2002 Apr 26 - After the last year crisis in Argentina, GMO labs offer help in exchange for field tests.**  
+**2003 Feb 29 - First mutations are exposed in Pampa region by local newspapers but are quickly hidden by the goverment.**  
 2003 - Numerous observations raise concern that collapse of ice sheets (West Antarctica, Greenland) can raise sea level faster than most had believed.  
 2005 - Kyoto treaty goes into effect, signed by major industrial nations except US.  
-
-**At this point, time diverges into an own branch**  
-
-**2002 - After the last year crisis in Argentina, GMO labs offer help in exchange for field tests.**  
-**2004 - First mutations are exposed in Pampa region but quickly cover by the goverment.**  
 2006 - China overtakes the United States as the world’s biggest emitter of CO2.  
-**2005 - **
-**2006 - Atucha II becomes online.**  
-**2007 - GMO food dominates the market in Argentina.**  
-**2008 - Brazil ceases import of Uruguayan cattle.**  
-**2008 - Fearing more contamination, Chile closes his east border. Escalating tensions between countries.**  
-2011 - Reaction to nuclear reactor disaster at Fukushima (Japan) ends hopes for a renaissance of nuclear power.  
-**2010 - Argentina closes his borders.**  
-**2010 - Subversive forces in Paraguay blows up Yacireta dam, changing the landscape for ever.**  
-**2011 - A military coup take place in Paraguay. National guard moves to Argentinean border.**  
-2011 - Research in Quebec finds Bt toxins in the blood of pregnant women and shows evidence that the toxin is passed to fetuses.  
-**2012 - Atucha II reaches critical mass and explodes.**  
-**2012 - Argentinean goverment gives control of airbases to UN.**  
-**2013 - Millions of civilians try to leave the country, most of them through Uruguay.**  
-**2013 - UN begins to supply the zone with humanitarian aid through airdrops.**
+**2005 - **  
+**2006 Aug 14 - 🇦🇷 Nuclear plant Atucha II becomes online.**  
+**2007 - 🇦🇷 GMO food dominates the market in Argentina.**  
+**2007 Mar 30 - 🇦🇷 Atucha II is accused of spill toxic waste into Parana river.**  
+**2008 May 3- 🇧🇷 Brazil ceases import of Uruguayan cattle.**  
+**2008 Sep 17- 🇨🇱 Fearing more contamination, Chile closes his east border. Escalating tensions between countries.**  
+**2010 - 🇦🇷 Argentina closes his borders.**  
+**2010 - 🇵🇾 Subversive forces in Paraguay blows up Yacireta dam, changing the landscape for ever.**  
+2011 Mar 11- Reaction to nuclear reactor disaster at Fukushima (Japan) ends hopes for a renaissance of nuclear power.  
+**2011 Apr 1- 🇵🇾 A military coup take place in Paraguay. National guard moves to Argentinean border.**  
+**2012 Oct 2 - 🇦🇷 Atucha II reaches critical mass and explodes. Surrounding areas of Capitol city are affeced by fallout.**  
+**2012 Nov 15 - 🇦🇷 Goverment gives control of airbases to UN.**  
+**2013 Jan 20 - 🇺🇾 Millions of civilians try to leave the country, most of them through Uruguay.**  
+**2013 - UN begins to supply the zone with humanitarian aid through airdrops.**  
 **2014 - UN starts patrolling the atlantic sea.**  
 2015 - Mean global temperature is 14.8°C, the warmest in thousands of years.  
-**2015 - Fuel start to scarce.**
+**2015 - Fuel reserves start to scarce.**  
 **2016 - UN ends humanitarian aid. More than 5000 airdrops were delivered in 3 years.**  
+**2016 - Last TV broadcast is transmited.**  
+**2017 - Breakdown in society, everyone lives as their own.**  
 **2018 - Another Day To Be begins...**  
 [Source 1](https://history.aip.org/climate/timeline.htm)  
 [Source 2](http://www.rosebudmag.com/truth-squad/gmo-timeline-a-history-of-genetically-modified-foods)  
