@@ -289,21 +289,28 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 
 **At this point, time diverges into an own branch**  
 
-**2002 - After the last year crisis in Argentina, GMO labs offer help in exchange**
+**2002 - After the last year crisis in Argentina, GMO labs offer help in exchange for field tests.**  
+**2004 - First mutations are exposed in Pampa region but quickly cover by the goverment.**  
 2006 - China overtakes the United States as the world’s biggest emitter of CO2.  
-
+**2005 - **
 **2006 - Atucha II becomes online.**  
 **2007 - GMO food dominates the market in Argentina.**  
-**2007 - First mutations are exposed in Pampa region but quickly cover by the goverment.**  
 **2008 - Brazil ceases import of Uruguayan cattle.**  
-**2008 - Fearing a domino effect, Chile closes his east border. Escalating tensions between countries.**  
+**2008 - Fearing more contamination, Chile closes his east border. Escalating tensions between countries.**  
 2011 - Reaction to nuclear reactor disaster at Fukushima (Japan) ends hopes for a renaissance of nuclear power.  
 **2010 - Argentina closes his borders.**  
+**2010 - Subversive forces in Paraguay blows up Yacireta dam, changing the landscape for ever.**  
+**2011 - A military coup take place in Paraguay. National guard moves to Argentinean border.**  
 2011 - Research in Quebec finds Bt toxins in the blood of pregnant women and shows evidence that the toxin is passed to fetuses.  
 **2012 - Atucha II reaches critical mass and explodes.**  
+**2012 - Argentinean goverment gives control of airbases to UN.**  
+**2013 - Millions of civilians try to leave the country, most of them through Uruguay.**  
+**2013 - UN begins to supply the zone with humanitarian aid through airdrops.**
 **2014 - UN starts patrolling the atlantic sea.**  
 2015 - Mean global temperature is 14.8°C, the warmest in thousands of years.  
-**2018 - Another Day To Be begins**  
+**2015 - Fuel start to scarce.**
+**2016 - UN ends humanitarian aid. More than 5000 airdrops were delivered in 3 years.**  
+**2018 - Another Day To Be begins...**  
 [Source 1](https://history.aip.org/climate/timeline.htm)  
 [Source 2](http://www.rosebudmag.com/truth-squad/gmo-timeline-a-history-of-genetically-modified-foods)  
 
@@ -454,6 +461,7 @@ _Along with the corruption of the people, the wild life suffered the same fate. 
 #### Puzzles and Challenges Ideas
 
 • Karma System  
+• Airdrops 
 
 #### Tools, Plugins, Assets, Notes
 
