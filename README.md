@@ -50,7 +50,7 @@ Go to the folder [Web Build](../Web%20build), download it and open [index.html](
 #### ► Story and Theme
 
 • [Time and space](#time-and-space)  
-• [Background story](#background-story)  
+• [Story Timeline](#story-timeline)  
 • [Our Hero](#our-hero) 
 
      - Conscript
@@ -270,15 +270,44 @@ There will be different events when the player is travelling, here is a short li
 
 ### Time and space
 
-The game takes place in year 2020, only two months after the breakdown in the bottom half of South America. An improvised quarantine border was built along the Tropic of Capricorn guarded by BOPE and UN troops who will shoot on sight. The purpose of this border is to maintain the security in Central and North America and stop the propagation of dangerous species.
+~~The game takes place in year 2018, only two months after the breakdown in the bottom half of South America. An improvised quarantine border was built along the Tropic of Capricorn guarded by BOPE and UN troops who will shoot on sight. The purpose of this border is to maintain the security in Central and North America and stop the propagation of dangerous species.~~ *Deprecated*
 
 Some places of the map are affected by differents catastrophes, such as nuclear accidents, typhoons, floods, droughts and the most important, crop contamination who caused famine and the raise of dangerous species of plants and animals.
 
-### Background story
+### Story Timeline
 
+1968 - Studies suggest a possibility of collapse of Antarctic ice sheets, which would raise sea levels catastrophically.  
+1972 - Droughts in Africa, Ukraine, India cause world food crisis, spreading fears about climate change.  
+1976 - Deforestation and other ecosystem changes are recognized as major factors in the future of the climate.  
+1986 - Meltdown of reactor at Chernobyl (Soviet Union) cripples plans to replace fossil fuels with nuclear power.  
+1992 - Conference in Rio de Janeiro produces UN Framework Convention on Climate Change, but US blocks calls for serious action.  
+1994 - The U.S. Food and Drug Administration approves GMO tomato for sale. The delayed-ripening tomato has a longer shelf life than conventional tomatoes.  
+1998 - A "Super El Niño" makes this an exceptionally warm year, equaled in later years but not clearly exceeded until 2014.  
+1999 - Over 100 million acres worldwide are planted with genetically engineered seeds. The marketplace begins embracing GMO technology at an alarming rate.  
+2003 - Numerous observations raise concern that collapse of ice sheets (West Antarctica, Greenland) can raise sea level faster than most had believed.  
+2005 - Kyoto treaty goes into effect, signed by major industrial nations except US.  
 
+**At this point, time diverges into an own branch**  
 
-# IMAGE PLACEHOLDER THEME
+**2002 - After the last year crisis in Argentina, GMO labs offer help in exchange**
+2006 - China overtakes the United States as the world’s biggest emitter of CO2.  
+
+**2006 - Atucha II becomes online.**  
+**2007 - GMO food dominates the market in Argentina.**  
+**2007 - First mutations are exposed in Pampa region but quickly cover by the goverment.**  
+**2008 - Brazil ceases import of Uruguayan cattle.**  
+**2008 - Fearing a domino effect, Chile closes his east border. Escalating tensions between countries.**  
+2011 - Reaction to nuclear reactor disaster at Fukushima (Japan) ends hopes for a renaissance of nuclear power.  
+**2010 - Argentina closes his borders.**  
+2011 - Research in Quebec finds Bt toxins in the blood of pregnant women and shows evidence that the toxin is passed to fetuses.  
+**2012 - Atucha II reaches critical mass and explodes.**  
+**2014 - UN starts patrolling the atlantic sea.**  
+2015 - Mean global temperature is 14.8°C, the warmest in thousands of years.  
+**2018 - Another Day To Be begins**  
+[Source 1](https://history.aip.org/climate/timeline.htm)  
+[Source 2](http://www.rosebudmag.com/truth-squad/gmo-timeline-a-history-of-genetically-modified-foods)  
+
+# IMAGE PLACEHOLDER TIMELINE
 
 ### Our Hero
 
@@ -420,7 +449,6 @@ _Along with the corruption of the people, the wild life suffered the same fate. 
 
 ## Brainstorm General Ideas
 
-• Make a timeline for background successes  
 • Expand assets library to include Chile and maybe Brazil weapons/vehicles  
 
 #### Puzzles and Challenges Ideas
