@@ -10,10 +10,10 @@
 
 ## Useful links for developers
 
-[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)   
+[<img src="https://img.shields.io/badge/Wikia-In Progress-yellow.svg"/>](http://es.anotherdaytobe.wikia.com/wiki/Wiki_AnotherDayToBe)  
 [<img src="https://img.shields.io/badge/Trello Board-Development-519839.svg"/>](https://trello.com/b/orFCsnAM/ad2b-development)  
 [<img src="https://img.shields.io/badge/Trello Board-Bugs-b04632.svg"/>](https://trello.com/b/wxyOYmrM/ad2b-bugs)  
-[<img src="https://img.shields.io/badge/Mindmeister Map-Concepts-e6b8cf.svg"/>](https://www.mindmeister.com/1043749988)
+[<img src="https://img.shields.io/badge/Mindmeister Map-Concepts-e6b8cf.svg"/>](https://www.mindmeister.com/1043749988) 
 
 ## How to download and play
 
@@ -304,7 +304,8 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 **2011 Apr 1- 🇵🇾 A military coup take place in Paraguay. National guard moves to Argentinean border.**  
 **2012 Oct 2 - 🇦🇷 Atucha II reaches critical mass and explodes. Surrounding areas of Capitol city are affeced by fallout.**  
 **2012 Nov 15 - 🇦🇷 Goverment gives control of airbases to UN.**  
-**2013 Jan 20 - 🇺🇾 Millions of civilians try to leave the country, most of them through Uruguay.**  
+**2013 Jan 20 - 🇦🇷 Millions of civilians try to leave the country, most of them through Uruguay.**  
+**2013 Jan 25 - 🇺🇾 Uruguay closes his borders**  
 **2013 - UN begins to supply the zone with humanitarian aid through airdrops.**  
 **2014 - UN starts patrolling the atlantic sea.**  
 2015 - Mean global temperature is 14.8°C, the warmest in thousands of years.  
@@ -324,13 +325,13 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
      <img src="Documents/Developer%20notes/GDD%20Images/MainMenuPreview.jpg"/>
 </p>
 
-• The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique style to play.
+• The player can choose between four classes (Conscript, medic, mechanic and scout). Each one has a unique story to play.
 
 ### Conscript
 
 #### Description  
 
-_The Conscript character is perfect for those who want to focus on combat or for those who are new in the game. It offers many combat buffs and is slighty better with all ranged weapons._
+_The Conscript is perfect for those who want to focus on combat or for those who are new in the game. It offers many combat buffs and is slighty better with all ranged weapons._
 
 #### Traits
 
@@ -338,22 +339,18 @@ _The Conscript character is perfect for those who want to focus on combat or for
 • Increased health
 • Slighty increased accuracy
 
-#### Story and objective
-
-
-
 #### Skill tree and habilities 
-
-##### Actives
-
-     • Last stand (10 turns to CD): Negates the enemy damage up to 90%.
-
-##### Passives
-
-     • Marksmanship (5 levels): Increase damage output by 2% each level.
 
 # SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
+##### Actives
+
+     • Last stand (10 turns to CD): Negates the enemy damage up to 90%.  
+
+##### Passives
+
+     • Marksmanship (5 levels): Increase damage output by 2% each level.  
+     
 ### Medic
 
 #### Description  
@@ -364,29 +361,25 @@ _The harder class to start due his low health, but the most powerful in late gam
 
 • Skilled submachine guns  
 • Regeneration per turn  
-• Food & drink more effective
-
-#### Story and objective
-
-
+• Food & drink more effective  
 
 #### Skill tree and habilities  
 
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER  
+
 ##### Actives
 
-     • Anesthesia (5 turns to CD): 50% chance to knock the enemy down for 1 turn
+     • Anesthesia (5 turns to CD): 50% chance to knock the enemy down for 1 turn.  
 
 ##### Passives
 
-     • Intensive care (5 levels): Increase health regeneration .
-
-# SKILL TREE IMAGE CONCEPT PLACEHOLDER
+     • Intensive care (5 levels): Increase health regeneration.  
 
 ### Mechanic
 
 #### Description  
 
-_A class very interesting to travel by car. Is very efficient driving and therefore fuel last longer. Also it can be use as berserker_
+_A class very interesting class to travel by car, His driving skills makes the fuel last longer. Also it can be use as berserker_
 
 #### Traits
 
@@ -394,25 +387,23 @@ _A class very interesting to travel by car. Is very efficient driving and theref
 • Less fuel consumption
 • Better chance to find car parts  
 
-#### Story and objective
-
 #### Skill tree and habilities  
+
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER
 
 ##### Actives
 
-     • Berserker (6 turns to CD): +30% damage output with melee weapons for 3 turns.
+     • Berserker (6 turns to CD): +30% damage output with melee weapons for 3 turns.  
 
 ##### Passives
 
-     • Grease Monkey (5 levels): Decrease fuel consumption by 5% each level.
-
-# SKILL TREE IMAGE CONCEPT PLACEHOLDER
+     • Grease Monkey (5 levels): Decrease fuel consumption by 5% each level.  
 
 ### Scout
 
 #### Description  
 
-_Scout class is perfect for events that can happen. Has a increased chance to avoid a fight and can resist more hours without food or water. Unfortunately he is pretty weak._
+_Scout class is perfect for events that can happen. Has a increased chance to avoid a fight and can resist more hours without food or water. Unfortunately his small body makes him vulnerable._
 
 #### Traits
 
@@ -424,15 +415,15 @@ _Scout class is perfect for events that can happen. Has a increased chance to av
 
 #### Skill tree and habilities  
 
+# SKILL TREE IMAGE CONCEPT PLACEHOLDER  
+
 ##### Actives
 
-     • Bullseye (5 turns to CD): +50% accuracy for the next turn
+     • Bullseye (5 turns to CD): +50% accuracy for the next turn.  
 
 ##### Passives
 
-     • Globetrotter (10 levels): Decrease needs rate by 3% each level.
-
-# SKILL TREE IMAGE CONCEPT PLACEHOLDER
+     • Globetrotter (10 levels): Decrease needs rate by 3% each level.  
 
 ### Our Villains
 
