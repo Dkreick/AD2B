@@ -14,12 +14,12 @@ MonoBehaviour:
   id: Lead Pipe
   type: Blunt
   description: Just taken from an old pipeline, rusty
-  weight: 3
+  weight: 2.5
   image: {fileID: 21300200, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
-  minDamage: 8
+  minDamage: 9
   maxDamage: 11
-  accuracy: 90
-  staminaCost: 0.2
+  accuracy: 85
+  staminaCost: 0.25
   capacity: 0
   ammoUsed: Nothing
   shot: {fileID: 8300000, guid: 21c241d05122f5f418762c570189bfe7, type: 3}

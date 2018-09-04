@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4264c4561f411b488daf7b290d6006a, type: 3}
   m_Name: Fists
   m_EditorClassIdentifier: 
-  id: Lead Pipe
+  id: Fists
   type: Blunt
-  description: Just taken from an old pipeline, rusty
-  weight: 3
+  description: Bare fists, better than nothing
+  weight: 0
   image: {fileID: 21300204, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
-  minDamage: 8
-  maxDamage: 11
-  accuracy: 90
-  staminaCost: 0.2
+  minDamage: 3
+  maxDamage: 5
+  accuracy: 100
+  staminaCost: 0.1
   capacity: 0
   ammoUsed: Nothing
   shot: {fileID: 8300000, guid: 21c241d05122f5f418762c570189bfe7, type: 3}
