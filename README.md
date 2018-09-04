@@ -43,7 +43,7 @@ Go to the folder [Web Build](../Web%20build), download it and open [index.html](
 • [30 Seconds Of Gameplay](#30-seconds-of-gameplay)  
 • [Combat with buffs and debuffs](#combat-with-buffs-and-debuffs)  
 • [Map full of places to explore](#map-full-of-places-to-explore)  
-• [Guns, food, drugs, vehicles and more...](#guns-food-aid-and-vehicles) 
+• [Weapons, food, drugs, vehicles and more...](#weapons-food-aid-and-vehicles) 
 
 • [Random events](#random-events)
      
@@ -179,11 +179,19 @@ In combat, both player and enemy will have differents attributes
      <img src="Documents/Developer%20notes/GDD%20Images/SketchTravel.png"/>
 </p>
 
-### Guns, food, aid and vehicles
+### Weapons, food, aid and vehicles
 
 # IMAGE PLACEHOLDER DICTIONARY ITEMS
 
-#### Guns
+#### Melee
+
+| Weapon Name | Type  | Damage Min/Max | Accuracy | Stamina Cost | Weight |
+|-------------|:-----:|:--------------:|:--------:|:------------:|:------:|
+| Fists       | Blunt | 3/5            | 100      | 0.1          | 0      |
+| Lead Pipe   | Blunt | 9/11           | 85       | 0.25         | 2.5    |
+| Machete     | Sharp | 12/14          | 80       | 0.3          | 2.5    |
+
+#### Ranged
 
 | Weapon Name           | Type          | Damage Min/Max | Accuracy | Stamina Cost | Weight | Capacity | Ammo     |
 |-----------------------|:-------------:|:--------------:|:--------:|:------------:|:------:|:--------:|:--------:|
