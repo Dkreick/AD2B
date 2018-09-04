@@ -106,6 +106,7 @@ TextureImporter:
     21300198: vehicleClassic
     21300200: leadPipe
     21300202: machete
+    21300204: fists
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -1474,7 +1475,7 @@ TextureImporter:
         width: 179
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1487,6 +1488,20 @@ TextureImporter:
         y: 35
         width: 240
         height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fists
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 41
+        width: 102
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
