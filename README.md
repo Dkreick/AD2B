@@ -112,9 +112,9 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 #### What are the technical details?
 
 • Developed using: Unity3D 2018  
-• Main languague: C#
+• Main languague: C#  
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity  
-• Platform(s): Web
+• Platform(s): Web  
 • Deployed in: [Itch.io](https://itch.io)  
 • Controls: Mouse, keyboard for hotkeys  
 
@@ -222,16 +222,25 @@ In combat, both player and enemy will have differents attributes
 
 *Some specs are not based on reality, they were modified to have a better experience.
 
-#### Food
+#### Food & Aid
 
-• MRE, Can of soda, Can of tuna, Bottle of water  
-
-#### Aid
-
-• Bandages, Painkillers, Medkit  
-• Morphine, Amphetamine, Cocaine, Epinephrine
+| Name            | Type  | Weight | Effect               |
+|-----------------|:-----:|:------:|:--------------------:|
+| MRE             | Food  | 0.5    | Reduces hunger       | 
+| Can of Soda     | Food  | 0.3    | Reduces thirst       |
+| Can of Tuna     | Food  | 0.2    | Reduces hunger       |
+| Bottle of water | Food  | 0.5    | Reduces thirst       |
+| Bandages        | Aid   | 0.1    | Stops bleeding       |
+| Painkillers     | Aid   | 0.05   | Increases defense    |
+| Medkit          | Aid   | 3      | Restores health      |
+| Morphine        | Drug  | 0.1    | Increases defense    |
+| Amphetamine     | Drug  | 0.05   | Increases adrenaline |
+| Cocaine         | Drug  | 0.05   | Increases stamina    |
+| Epinephrine     | Drug  | 0.05   | Boost max health     |
 
 #### Vehicles
+
+A vehicle is a powerful and complex feature you can find in many places, but bear in mind that fuel is very scarce.
 
 #### Specs Table
 
@@ -240,7 +249,7 @@ In combat, both player and enemy will have differents attributes
 | Chevrolet Classic | Car   | 170 Km/h  | 6          | 490   | 90    | 7          |
 | Ford Falcon       | Car   | 160 Km/h  | 9          | 520   | 100   | 7.5        |
 | Ford F100         | Truck | 110 Km/h  | 9          | 400   | 350   | 6          |
-| Honda CG150       | Bike  | 100 Km/h  | 4          | 350   | 10    | 4          |
+| Honda CG150       | Bike  | 100 Km/h  | 4          | 350   | 10    | 30         |
 | Renault 12        | Car   | 130 Km/h  | 8          | 450   | 90    | 10         |
 | Unimog 416        | Truck | 80 Km/h   | 10         | 477   | 300   | 5          |
 | VW Gol            | Car   | 180 Km/h  | 7          | 900   | 75    | 8          |
@@ -277,8 +286,6 @@ There will be different events when the player is travelling, here is a short li
 ## Story and Theme
 
 ### Time and space
-
-~~The game takes place in year 2018, only two months after the breakdown in the bottom half of South America. An improvised quarantine border was built along the Tropic of Capricorn guarded by BOPE and UN troops who will shoot on sight. The purpose of this border is to maintain the security in Central and North America and stop the propagation of dangerous species.~~ *Deprecated*
 
 Some places of the map are affected by differents catastrophes, such as nuclear accidents, typhoons, floods, droughts and the most important, crop contamination who caused famine and the raise of dangerous species of plants and animals.
 
