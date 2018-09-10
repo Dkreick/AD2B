@@ -224,19 +224,21 @@ In combat, both player and enemy will have differents attributes
 
 #### Food & Aid
 
-| Name            | Type  | Weight | Effect               |
-|-----------------|:-----:|:------:|:--------------------:|
-| MRE             | Food  | 0.5    | Reduces hunger       | 
-| Can of Soda     | Food  | 0.3    | Reduces thirst       |
-| Can of Tuna     | Food  | 0.2    | Reduces hunger       |
-| Bottle of water | Food  | 0.5    | Reduces thirst       |
-| Bandages        | Aid   | 0.1    | Stops bleeding       |
-| Painkillers     | Aid   | 0.05   | Increases defense    |
-| Medkit          | Aid   | 3      | Restores health      |
-| Morphine        | Drug  | 0.1    | Increases defense    |
-| Amphetamine     | Drug  | 0.05   | Increases adrenaline |
-| Cocaine         | Drug  | 0.05   | Increases stamina    |
-| Epinephrine     | Drug  | 0.05   | Boost max health     |
+*Many consumables have different effects depending if they are used or not in combat*
+
+| Name            | Type  | Weight | Combat Effect            | Travel Effect            |
+|-----------------|:-----:|:------:|:------------------------:|:------------------------:|
+| MRE             | Food  | 0.5    | Restores health          | Reduces hunger           |
+| Can of Soda     | Food  | 0.3    | Slighty restores stamina | Reduces thirst           |
+| Can of Tuna     | Food  | 0.2    | Slighty restores health  | Reduces hunger           |
+| Bottle of water | Food  | 0.5    | Slighty restores stamina | Reduces thirst           |
+| Bandages        | Aid   | 0.1    | Stops bleeding           | None effect              |
+| Painkillers     | Aid   | 0.05   | Increases defense        | None effect              |
+| Medkit          | Aid   | 3      | Greatly Restores health  | None effect              |
+| Morphine        | Drug  | 0.1    | Increases defense        | None effect              |
+| Amphetamine     | Drug  | 0.05   | Increases adrenaline     | None effect              |
+| Cocaine         | Drug  | 0.05   | Boost max stamina        | Reduces sleep            |
+| Epinephrine     | Drug  | 0.05   | Boost max health         | None effect              |
 
 #### Vehicles
 
