@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Hunting shotgun, relies in his accuracy but lack on damage.
   weight: 3.6
   image: {fileID: 21300050, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300112, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 22
   maxDamage: 28
   accuracy: 40

@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Special forces weapon, good accuracy but it's not very common to find.
   weight: 3.6
   image: {fileID: 21300056, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300142, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 15
   maxDamage: 19
   accuracy: 65

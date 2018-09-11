@@ -8,4 +8,5 @@ public class Item : ScriptableObject
 	[SerializeField] string description;
 	[SerializeField] float weight;
 	public Sprite image;
+	public Sprite iconImage;
 }

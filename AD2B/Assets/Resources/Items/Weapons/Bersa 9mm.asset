@@ -16,6 +16,7 @@ MonoBehaviour:
   description: The standard police weapon, 9mm of duty.
   weight: 0.9
   image: {fileID: 21300024, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300084, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 7
   maxDamage: 10
   accuracy: 70

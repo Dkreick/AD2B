@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Outmatches the Bataan, but is much harder to find.
   weight: 3.2
   image: {fileID: 21300044, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300106, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 25
   maxDamage: 31
   accuracy: 45

@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
 	{
 		foreach (ScriptableObject item in inventory)
 		{
-			GameObject item = Resources.Loa
+			//GameObject item = Resources.Load()
 		}
 	}
 

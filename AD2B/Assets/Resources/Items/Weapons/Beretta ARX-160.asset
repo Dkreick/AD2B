@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Italian modern rifle.
   weight: 3.1
   image: {fileID: 21300060, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300144, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 14
   maxDamage: 18
   accuracy: 70

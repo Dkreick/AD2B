@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Mostly used by all argentinean special forces. Uses 9mm ammo to work.
   weight: 3.1
   image: {fileID: 21300040, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300102, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 6
   maxDamage: 9
   accuracy: 40

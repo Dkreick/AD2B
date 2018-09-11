@@ -16,6 +16,7 @@ MonoBehaviour:
   description: If your hands doesn't shake, this guy ensures a clean shot.
   weight: 4
   image: {fileID: 21300070, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300132, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 24
   maxDamage: 32
   accuracy: 80

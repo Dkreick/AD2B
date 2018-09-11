@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Argentinean 9mm SMG, pretty extended and relatively easy to find
   weight: 3.4
   image: {fileID: 21300036, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300098, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 5
   maxDamage: 8
   accuracy: 40

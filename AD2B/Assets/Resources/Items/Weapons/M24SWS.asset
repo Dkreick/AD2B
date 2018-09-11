@@ -16,6 +16,7 @@ MonoBehaviour:
   description: Most accurate weapon in the country, even without that bipod.
   weight: 5.5
   image: {fileID: 21300066, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300128, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 25
   maxDamage: 30
   accuracy: 95

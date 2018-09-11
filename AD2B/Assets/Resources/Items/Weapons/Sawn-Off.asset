@@ -17,6 +17,7 @@ MonoBehaviour:
     down.
   weight: 1.7
   image: {fileID: 21300046, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300108, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 28
   maxDamage: 37
   accuracy: 30

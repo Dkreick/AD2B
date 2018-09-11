@@ -16,6 +16,7 @@ MonoBehaviour:
   description: With a decent scope, you can shoot the stars.
   weight: 4.1
   image: {fileID: 21300064, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300126, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 23
   maxDamage: 29
   accuracy: 90

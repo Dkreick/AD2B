@@ -16,6 +16,7 @@ MonoBehaviour:
   description: If you prefer polymer rather than wood, find me.
   weight: 2.5
   image: {fileID: 21300062, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300124, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 11
   maxDamage: 19
   accuracy: 80

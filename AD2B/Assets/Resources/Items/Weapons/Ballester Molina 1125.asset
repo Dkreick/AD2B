@@ -16,6 +16,7 @@ MonoBehaviour:
   description: It has more than 100 years in action. Uses .45ACP ammo
   weight: 1.1
   image: {fileID: 21300030, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300092, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   minDamage: 9
   maxDamage: 11
   accuracy: 60
