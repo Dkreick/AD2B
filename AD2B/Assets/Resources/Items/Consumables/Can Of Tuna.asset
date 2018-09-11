@@ -15,7 +15,7 @@ MonoBehaviour:
   type: Food
   description: 
   weight: 0
-  image: {fileID: 0}
+  image: {fileID: 21300018, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   hungerRestored: 0
   thirstRestored: 0
   sleepRestored: 0

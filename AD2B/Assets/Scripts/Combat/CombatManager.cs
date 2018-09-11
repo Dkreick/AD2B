@@ -9,12 +9,19 @@ public class CombatManager : MonoBehaviour
 
     public Player player;
     public Enemy enemy;
+    public GameObject panelInventory;
     public GameObject panelVictory;
     public GameObject panelDefeat;
 
     public void Cover()
     {
 
+    }
+
+    public void OpenInventory()
+    {
+        panelInventory.SetActive(true);
+        transform.GetChild(2).GetComponent<Button>().interactable = false;
     }
 
     public void Attack()
@@ -30,7 +37,7 @@ public class CombatManager : MonoBehaviour
         }
     }
 
-    void ManageEnemyTurn()
+    public void ManageEnemyTurn()
     {
         if (enemy.healthBar.value * 100 > 50)
         {

@@ -15,7 +15,7 @@ public class PlayerData : MonoBehaviour
 
     public static int maxHealth;
     public static int maxStamina;
-
+    
     public static float temperature;
     public static int needsRate;
     public static int hunger;
