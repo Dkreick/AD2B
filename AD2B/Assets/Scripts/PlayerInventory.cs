@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-	public List<ScriptableObject> inventory = new List<ScriptableObject>();
-	//[SerializeObject] GameObject inventoryGrid;
+	public List<Item> inventory = new List<Item>();
 
 	void Start()
 	{
-		foreach (ScriptableObject item in inventory)
+		foreach (Item item in inventory)
 		{
-			//GameObject item = Resources.Load()
+			//GameObject item = Resources.Load<Item>();
+
+			//Resources.Load<Weapon>("Items/Weapons/M16");
 		}
 	}
 
