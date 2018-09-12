@@ -23,6 +23,15 @@ public class PlayerInventory : MonoBehaviour
 
 	public void RemoveItem()
 	{
+		foreach (GameObject item in inventory)
+		{
+			//GameObject item = Resources.Load<Item>();
+			//Resources.Load<Weapon>("Items/Weapons/M16");
+		}
+	}
 
+	public void UseItem()
+	{
+		
 	}
 }

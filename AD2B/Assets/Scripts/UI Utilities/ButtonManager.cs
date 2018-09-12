@@ -9,6 +9,7 @@ public class ButtonManager : MonoBehaviour
     private string _url;
     private GameObject _fadeOutImage;
     public float timeToFadeOut;
+    public Color toggleColor;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class ButtonManager : MonoBehaviour
     {
         if (GetComponent<Toggle>().isOn)
         {
-            GetComponent<Image>().color = Color.red;
+            GetComponent<Image>().color = toggleColor;
             PlayerData.charClass = className;
         }
         else
