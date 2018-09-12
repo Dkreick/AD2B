@@ -21,7 +21,7 @@ public class PlayerInventory : MonoBehaviour
 			Instantiate(itemToAdd, transform);
 		}
 
-		textWeight.GetComponent<Text>().text = "Weight: " + currentWeight + "Kg" + PlayerData.maxWeight + "Kg";
+		textWeight.GetComponent<Text>().text = "Weight: " + currentWeight + "Kg";
 	}
 
 	public void RemoveItem()

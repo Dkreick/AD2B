@@ -71,7 +71,10 @@ public class PlayerData : MonoBehaviour
 
     public void CreateInventory()
     {
-        Item itemToadd = Resources.Load<Item>("ScriptableObjects/Items/Medkit");
+        Item itemToadd = Resources.Load<Item>("ScriptableObjects/Weapons/M16");
+        inventory.Add(itemToadd);
+
+        itemToadd = Resources.Load<Item>("ScriptableObjects/Items/Medkit");
         inventory.Add(itemToadd);
         
         itemToadd = Resources.Load<Item>("ScriptableObjects/Items/MRE");
