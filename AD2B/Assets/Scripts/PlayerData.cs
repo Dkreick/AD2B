@@ -42,6 +42,7 @@ public class PlayerData : MonoBehaviour
 
         maxHealth = 100;
         maxStamina = 100;
+        maxWeight = 20;
         travelSpeed = 10;
         money = 50;
         location = "BuenosAires";
