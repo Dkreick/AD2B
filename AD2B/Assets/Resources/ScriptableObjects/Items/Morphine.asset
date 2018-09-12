@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51c173cfe3b5cce4ba36257679050ffe, type: 3}
-  m_Name: Bottle Of Water
+  m_Name: Morphine
   m_EditorClassIdentifier: 
-  id: Bottle Of Water
-  type: Food
+  id: Morphine
+  type: Drug
   description: 
   weight: 0
-  image: {fileID: 21300012, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  image: {fileID: 21300078, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300078, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   hungerRestored: 0
   thirstRestored: 0
   sleepRestored: 0

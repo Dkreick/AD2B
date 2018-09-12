@@ -15,13 +15,15 @@ public class PlayerData : MonoBehaviour
 
     public static int maxHealth;
     public static int maxStamina;
-    
+
     public static float temperature;
     public static int needsRate;
     public static int hunger;
     public static int thirst;
     public static int sleep;
     public static int maxWeight;
+
+    public static List<Item> inventory = new List<Item>();
 
     void Awake()
     {
@@ -43,6 +45,8 @@ public class PlayerData : MonoBehaviour
         travelSpeed = 10;
         money = 50;
         location = "BuenosAires";
+
+        CreateInventory();
     }
 
     public void CreateClass()
@@ -62,5 +66,20 @@ public class PlayerData : MonoBehaviour
 
                 break;
         }
+    }
+
+    public void CreateInventory()
+    {
+        Item itemToadd = Resources.Load<Item>("ScriptableObjects/Items/Medkit");
+        inventory.Add(itemToadd);
+        
+        itemToadd = Resources.Load<Item>("ScriptableObjects/Items/MRE");
+        inventory.Add(itemToadd);
+
+        itemToadd = Resources.Load<Item>("ScriptableObjects/Items/Bandages");
+        inventory.Add(itemToadd);
+
+        itemToadd = Resources.Load<Item>("ScriptableObjects/Items/Morphine");
+        inventory.Add(itemToadd);
     }
 }

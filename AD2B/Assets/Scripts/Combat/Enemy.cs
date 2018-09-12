@@ -9,9 +9,10 @@ public class Enemy : Character
     {
         id = "Enemy";
         
+        //GET A RANDOM WEAPON
         Object[] weapons;
         weaponInHand = this.transform.GetChild(0);
-        weapons = Resources.LoadAll("Items/Weapons", typeof(Weapon));
+        weapons = Resources.LoadAll("ScriptableObjects/Weapons", typeof(Weapon));
         weapon = (Weapon)weapons[Random.Range(0, weapons.Length)];
 
         weaponInHand.GetComponent<Image>().sprite = weapon.image;

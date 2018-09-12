@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51c173cfe3b5cce4ba36257679050ffe, type: 3}
-  m_Name: MRE
+  m_Name: Cocaine
   m_EditorClassIdentifier: 
-  id: MRE
-  type: Food
+  id: Cocaine
+  type: Drug
   description: 
   weight: 0
-  image: {fileID: 21300146, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  image: {fileID: 21300190, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
+  iconImage: {fileID: 21300190, guid: 4bbdc96a6f4f7b849876ec7eadbe2509, type: 3}
   hungerRestored: 0
   thirstRestored: 0
   sleepRestored: 0

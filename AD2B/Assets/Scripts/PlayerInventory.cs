@@ -1,37 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerInventory : MonoBehaviour
 {
-	public List<Item> inventory = new List<Item>();
+	public GameObject itemToAdd;
 
 	void Start()
 	{
-		foreach (Item item in inventory)
+		foreach (Item item in PlayerData.inventory)
 		{
-			//GameObject item = Resources.Load<Item>();
-
-			//Resources.Load<Weapon>("Items/Weapons/M16");
+			itemToAdd.GetComponent<Image>().sprite = item.iconImage;
+			itemToAdd.GetComponent<Toggle>().group = GetComponent<ToggleGroup>();
+			Instantiate(itemToAdd, transform);
 		}
 	}
 
-	public void AddItem()
-	{
-		
-	}	
-
 	public void RemoveItem()
 	{
-		foreach (GameObject item in inventory)
-		{
-			//GameObject item = Resources.Load<Item>();
-			//Resources.Load<Weapon>("Items/Weapons/M16");
-		}
+		
 	}
 
 	public void UseItem()
 	{
-		
+
 	}
 }

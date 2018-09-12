@@ -10,9 +10,9 @@ public class Player : Character
 
 	void Start()
 	{
-		id = "Player";
+		id = PlayerData.username;
 		weaponInHand = this.transform.GetChild(0);
-		weapon = Resources.Load<Weapon>("Items/Weapons/M16");
+		weapon = Resources.Load<Weapon>("ScriptableObjects/Weapons/M16");
 		weaponInHand.GetComponent<Image>().sprite = weapon.image;
 		primaryHolster.GetComponent<Image>().sprite = weapon.image;
 		GetComponent<AudioSource>().clip = weapon.shot;
