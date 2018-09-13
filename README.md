@@ -179,6 +179,12 @@ In combat, both player and enemy will have differents attributes
      <img src="Documents/Developer%20notes/GDD%20Images/SketchTravel.png"/>
 </p>
 
+• Civilian Camps: For all kind of loot.  
+• Hospitals: For aid.  
+• Military:  For high end weapons.  
+• Warehouses: For car parts.  
+• Cities: For human resources.  
+
 ### Weapons, food, aid and vehicles
 
 # IMAGE PLACEHOLDER DICTIONARY ITEMS
@@ -228,17 +234,18 @@ In combat, both player and enemy will have differents attributes
 
 | Name            | Type  | Weight | Combat Effect            | Travel Effect            |
 |-----------------|:-----:|:------:|:------------------------:|:------------------------:|
-| MRE             | Food  | 0.5    | Restores health          | Reduces hunger           |
+| Amphetamine     | Drug  | 0.05   | Increases adrenaline     | None effect              |
+| Bandages        | Aid   | 0.1    | Stops bleeding           | None effect              |
+| Bubblegum       | Food  | 0.5    | Restores health          | Slighty Reduces hunger   |
+| Bottle of water | Food  | 0.5    | Slighty restores stamina | Reduces thirst           |
 | Can of Soda     | Food  | 0.3    | Slighty restores stamina | Reduces thirst           |
 | Can of Tuna     | Food  | 0.2    | Slighty restores health  | Reduces hunger           |
-| Bottle of water | Food  | 0.5    | Slighty restores stamina | Reduces thirst           |
-| Bandages        | Aid   | 0.1    | Stops bleeding           | None effect              |
-| Painkillers     | Aid   | 0.05   | Increases defense        | None effect              |
-| Medkit          | Aid   | 3      | Greatly Restores health  | None effect              |
-| Morphine        | Drug  | 0.1    | Increases defense        | None effect              |
-| Amphetamine     | Drug  | 0.05   | Increases adrenaline     | None effect              |
 | Cocaine         | Drug  | 0.05   | Boost max stamina        | Reduces sleep            |
 | Epinephrine     | Drug  | 0.05   | Boost max health         | None effect              |
+| Medkit          | Aid   | 3      | Greatly Restores health  | None effect              |
+| MRE             | Food  | 0.5    | Restores health          | Reduces hunger           |
+| Morphine        | Drug  | 0.1    | Increases defense        | None effect              |
+| Painkillers     | Aid   | 0.05   | Increases defense        | None effect              |
 
 #### Vehicles
 
