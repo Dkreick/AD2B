@@ -1,10 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Character : MonoBehaviour
-{
+public class Character : MonoBehaviour {
     public Slider healthBar;
     public Slider staminaBar;
     public Slider adrenalineBar;
@@ -18,14 +17,10 @@ public class Character : MonoBehaviour
     protected Weapon weapon;
     protected Transform weaponInHand;
 
-    public float CalculateDamage()
-    {
-        if (Random.Range(0, 1) <= weapon.accuracy)
-        {
-            return Random.Range(weapon.minDamage, weapon.maxDamage);
-        }
-        else
-        {
+    public float CalculateDamage () {
+        if (Random.Range (0, 1) <= weapon.accuracy) {
+            return Random.Range (weapon.minDamage, weapon.maxDamage);
+        } else {
             return 0;
         }
     }
