@@ -114,7 +114,7 @@ Another Day To Be is a turn based tactics and exploration game in a devastated w
 • Developed using: Unity3D 2018  
 • Main languague: C#  
 • Art Assets: Adobe Illustrator, Adobe Photoshop, Audacity  
-• Platform(s): Web  
+• Platform(s): Web/Android  
 • Deployed in: [Itch.io](https://itch.io)  
 • Controls: Mouse, keyboard for hotkeys  
 
