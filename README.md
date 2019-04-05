@@ -303,16 +303,17 @@ Some places of the map are affected by differents catastrophes, such as nuclear 
 1968 - Studies suggest a possibility of collapse of Antarctic ice sheets, which would raise sea levels catastrophically.  
 1972 - Droughts in Africa, Ukraine, India cause world food crisis, spreading fears about climate change.  
 1976 - Deforestation and other ecosystem changes are recognized as major factors in the future of the climate.  
+1982 - Greenland ice cores reveal drastic temperature oscillations in the space of a century in the distant past.  
 1986 - Meltdown of reactor at Chernobyl (Soviet Union) cripples plans to replace fossil fuels with nuclear power.  
 1992 - Conference in Rio de Janeiro produces UN Framework Convention on Climate Change, but US blocks calls for serious action.  
-1994 - The U.S. Food and Drug Administration approves GMO tomato for sale. The delayed-ripening tomato has a longer shelf life than conventional tomatoes.  
-1998 - A "Super El Niño" makes this an exceptionally warm year, equaled in later years but not clearly exceeded until 2014.  
-1999 - Over 100 million acres worldwide are planted with genetically engineered seeds. The marketplace begins embracing GMO technology at an alarming rate.  
 
 **At this point, history diverges into a new branch**  
 
-**2002 Apr 26 - After the last year crisis in Argentina, GMO labs offer help in exchange for field tests.**  
-**2003 Feb 29 - First mutations are exposed in Pampa region by local newspapers but are quickly hidden by the goverment.**  
+**1997 Dic 11 - Kyoto Protocol does not go into session, major countries refused to face each others**  
+1994 - The U.S. Food and Drug Administration approves GMO tomato for sale. The delayed-ripening tomato has a longer shelf life than conventional tomatoes.  
+1998 - A "Super El Niño" makes this an exceptionally warm year, equaled in later years but not clearly exceeded until 2014.  
+1999 - Over 100 million acres worldwide are planted with genetically engineered seeds. The marketplace begins embracing GMO technology at an alarming rate.  
+**2003 Feb 29 - 🇦🇷 First mutations are exposed in Pampa region by local newspapers but are quickly hidden by the goverment.**  
 2003 - Numerous observations raise concern that collapse of ice sheets (West Antarctica, Greenland) can raise sea level faster than most had believed.  
 2005 - Kyoto treaty goes into effect, signed by major industrial nations except US.  
 2006 - China overtakes the United States as the world’s biggest emitter of CO2.  
